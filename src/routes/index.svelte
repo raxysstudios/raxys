@@ -3,10 +3,10 @@
 	import SocialBar from './social-bar.svelte';
 </script>
 
-<div class="flex flex-col items-center">
+<div class="flex flex-col items-center mb-4">
 	<div
-		class="absolute w-full h-full -z-10 -translate-y-[15%] opacity-25 bg-cover bg-center"
-		style="background-image: linear-gradient(transparent, transparent 70%, white 80%, white), url(src/img/map.png);"
+		id="map"
+		class="absolute w-full h-full -z-10 -translate-y-1/4 opacity-30 bg-cover bg-center"
 	/>
 	<img class="w-64" src="src/img/raxys.png" alt="raxys" />
 	<h1 class="text-4xl font-bold">Raxys Studios</h1>
@@ -18,7 +18,7 @@
 		github="raxysstudios"
 		joint
 	/>
-	<p class="max-w-xl indent-7 text-justify">
+	<p class="max-w-xl indent-14 text-justify m-4">
 		…Флаг этот следующего описания: семь белых поперечных полос чередуются с семью зелеными
 		поперечными же полосами сверху в них, а в верхнем углу полотнища у древка, на голубом фоне
 		четырехугольника, располагаются семь белых семигранных звезд, как эмблема семи главных
@@ -28,6 +28,7 @@
 	</p>
 </div>
 
+<hr />
 <div class="flex flex-col items-center">
 	<div class="flex flex-row justify-center flex-wrap gap-8 m-8">
 		<ProjectCard
@@ -81,3 +82,11 @@
 		</ProjectCard>
 	</div>
 </div>
+
+<style>
+	#map {
+		--bg: rgb(241 245 249);
+		background-image: linear-gradient(transparent 70%, var(--bg) 85%, var(--bg)),
+			url(src/img/map.png);
+	}
+</style>

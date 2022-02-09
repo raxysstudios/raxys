@@ -10,7 +10,6 @@ body {
 
 .iconify {
 	font-size: 24px;
-	@apply text-gray-500;
 }
 
 * {
