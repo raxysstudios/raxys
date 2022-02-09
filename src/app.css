@@ -8,6 +8,11 @@ body {
 	@apply bg-slate-100;
 }
 
+.iconify {
+	font-size: 24px;
+	@apply text-gray-500;
+}
+
 * {
 	@apply select-none duration-150 font-['Fira_Sans'];
 }

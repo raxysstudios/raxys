@@ -42,6 +42,7 @@
 			<SocialBar
 				slot="footer"
 				github="raxysstudios"
+				webAppUrl="https://avzag.app"
 				appStoreUrl="raxysstudios"
 				googlePlayUrl="raxysstudios"
 			/>

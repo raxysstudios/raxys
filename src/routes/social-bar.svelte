@@ -2,51 +2,46 @@
 	export let telegram = '';
 	export let twitter = '';
 	export let github = '';
+	export let webAppUrl = '';
 	export let googlePlayUrl = '';
 	export let appStoreUrl = '';
 </script>
 
-<div id="bar" class="flex flex-row justify-between">
-	{#if telegram || twitter}
-		<div>
-			{#if telegram}
-				<a href={'https://t.me/' + telegram}>
-					<span class="iconify" data-icon="mdi:telegram" data-inline="false" />
-				</a>
-			{/if}
-			{#if twitter}
-				<a href={'https://twitter.com/' + twitter}>
-					<span class="iconify" data-icon="mdi:twitter" data-inline="false" />
-				</a>
-			{/if}
-		</div>
+<div id="bar" class="flex flex-row gap-3">
+	{#if telegram}
+		<a href={'https://t.me/' + telegram}>
+			<span class="iconify" data-icon="mdi:telegram" data-inline="false" />
+		</a>
+	{/if}
+	{#if twitter}
+		<a href={'https://twitter.com/' + twitter}>
+			<span class="iconify" data-icon="mdi:twitter" data-inline="false" />
+		</a>
 	{/if}
 	{#if github}
 		<a href={'https://github.com/' + github}>
 			<span class="iconify" data-icon="mdi:github" data-inline="false" />
 		</a>
 	{/if}
-	{#if googlePlayUrl || appStoreUrl}
-		<div>
-			{#if googlePlayUrl}
-				<a href={googlePlayUrl}>
-					<span class="iconify" data-icon="mdi:google-play" data-inline="false" />
-				</a>
-			{/if}
-			{#if appStoreUrl}
-				<a href={appStoreUrl}>
-					<span class="iconify" data-icon="ion:ios-appstore" data-inline="false" />
-				</a>
-			{/if}
-		</div>
+	<span class="flex-1" />
+	{#if webAppUrl}
+		<a href={webAppUrl}>
+			<span class="iconify" data-icon="mdi:open-in-app" />
+		</a>
+	{/if}
+	{#if googlePlayUrl}
+		<a href={googlePlayUrl}>
+			<span class="iconify" data-icon="mdi:google-play" data-inline="false" />
+		</a>
+	{/if}
+	{#if appStoreUrl}
+		<a href={appStoreUrl}>
+			<span class="iconify" data-icon="ion:ios-appstore" data-inline="false" />
+		</a>
 	{/if}
 </div>
 
 <style class="postcss">
-	#bar > div {
-		@apply flex flex-row gap-3;
-	}
-
 	.iconify {
 		font-size: 24px;
 	}
