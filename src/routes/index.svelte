@@ -3,22 +3,18 @@
 	import SocialBar from './social-bar.svelte';
 </script>
 
-<div class="flex flex-col items-center mb-4">
+<div class="flex flex-col items-center mb-8 gap-4">
 	<div
 		id="map"
 		class="absolute w-full h-full -z-10 -translate-y-1/4 opacity-30 bg-cover bg-center"
 	/>
-	<img class="w-64" src="src/img/raxys.png" alt="raxys" />
-	<h1 class="text-4xl font-bold">Raxys Studios</h1>
-	<p class="text-center font-medium">Made with honor in North Caucasus</p>
-	<SocialBar
-		class="m-4"
-		telegram="raxysstudios"
-		twitter="raxysstudios"
-		github="raxysstudios"
-		joint
-	/>
-	<p class="max-w-xl indent-14 text-justify m-4">
+	<div class="flex flex-col items-center">
+		<img class="w-64" src="src/img/raxys.png" alt="raxys" />
+		<h1 class="text-4xl font-bold">Raxys Studios</h1>
+		<p class="text-center font-medium">Made with honor in North Caucasus</p>
+	</div>
+	<SocialBar telegram="raxysstudios" twitter="raxysstudios" github="raxysstudios" joint />
+	<p class="max-w-xl indent-14 text-justify">
 		…Флаг этот следующего описания: семь белых поперечных полос чередуются с семью зелеными
 		поперечными же полосами сверху в них, а в верхнем углу полотнища у древка, на голубом фоне
 		четырехугольника, располагаются семь белых семигранных звезд, как эмблема семи главных
