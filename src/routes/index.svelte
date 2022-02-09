@@ -1,7 +1,6 @@
 <script>
 	import ProjectCard from '$lib/project-card.svelte';
 	import SocialBar from '$lib/social-bar.svelte';
-	import { base } from '$app/paths';
 </script>
 
 <div class="flex flex-col items-center mb-8 mx-8 gap-4">
@@ -10,7 +9,7 @@
 		class="absolute w-full h-full -z-10 -translate-y-1/4 opacity-30 bg-cover bg-center"
 	/>
 	<div class="flex flex-col items-center">
-		<img class="w-64" src="{base}/raxys.png" alt="raxys" />
+		<img class="w-64" src="raxys.png" alt="raxys" />
 		<h1 class="text-4xl font-bold">Raxys Studios</h1>
 		<p class="text-center font-medium">Made with honor in North Caucasus</p>
 	</div>
