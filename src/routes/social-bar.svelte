@@ -5,10 +5,10 @@
 	export let webAppUrl = '';
 	export let googlePlayUrl = '';
 	export let appStoreUrl = '';
-	export let split = true;
+	export let joint = false;
 </script>
 
-<div id="bar" class="flex flex-row gap-3">
+<div id="bar" class="flex flex-row gap-3 {$$props.class}">
 	{#if telegram}
 		<a href={'https://t.me/' + telegram} target="_blank">
 			<span class="iconify" data-icon="mdi:telegram" data-inline="false" />
@@ -24,7 +24,7 @@
 			<span class="iconify" data-icon="mdi:github" data-inline="false" />
 		</a>
 	{/if}
-	{#if split}
+	{#if !joint}
 		<span class="flex-1" />
 	{/if}
 	{#if webAppUrl}

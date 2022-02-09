@@ -41,6 +41,7 @@
 			<SocialBar
 				slot="footer"
 				github="raxysstudios/avdan"
+				webAppUrl="https://raxysstudios.github.io/avdan/"
 				appStoreUrl="https://apps.apple.com/ru/app/avdan-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B0%D1%83%D0%B4%D0%B8%D0%BE-%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/id1604826853"
 				googlePlayUrl="https://play.google.com/store/apps/details?id=com.alkaitagi.avdan"
 			/>
@@ -64,7 +65,11 @@
 			<p class="text-sm italic" slot="footer">Coming soon...</p>
 		</ProjectCard>
 	</div>
-	<div>
-		<SocialBar telegram="raxysstudios" twitter="raxysstudios" github="raxysstudios" />
-	</div>
+	<SocialBar
+		class="m-4"
+		telegram="raxysstudios"
+		twitter="raxysstudios"
+		github="raxysstudios"
+		joint
+	/>
 </div>
