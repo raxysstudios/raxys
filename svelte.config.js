@@ -1,8 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
-const base = process.env.NODE_ENV === 'development' ? undefined : '/raxys';
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
@@ -10,8 +8,7 @@ const config = {
 	preprocess: preprocess(),
 	kit: {
 		paths: {
-			base,
-			assets: base
+			base: process.env.NODE_ENV === 'development' ? undefined : '/raxys'
 		},
 		adapter: adapter()
 	}
