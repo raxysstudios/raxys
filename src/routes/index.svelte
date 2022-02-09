@@ -11,6 +11,21 @@
 	<img class="w-64" src="src/img/raxys.png" alt="raxys" />
 	<h1 class="text-4xl font-bold">Raxys Studios</h1>
 	<p class="text-center font-medium">Made with honor in North Caucasus</p>
+	<SocialBar
+		class="m-4"
+		telegram="raxysstudios"
+		twitter="raxysstudios"
+		github="raxysstudios"
+		joint
+	/>
+	<p class="max-w-xl indent-7 text-justify">
+		…Флаг этот следующего описания: семь белых поперечных полос чередуются с семью зелеными
+		поперечными же полосами сверху в них, а в верхнем углу полотнища у древка, на голубом фоне
+		четырехугольника, располагаются семь белых семигранных звезд, как эмблема семи главных
+		народностей, входящих в состав Республики. Цвет голубой был включен во флаг в отличие флага
+		нашей республики от флагов германских государств Ангульт и Саксония, имеющих национальные флаги
+		белого и зеленого цветов…
+	</p>
 </div>
 
 <div class="flex flex-col items-center">
@@ -65,11 +80,4 @@
 			<p class="text-sm italic" slot="footer">Coming soon...</p>
 		</ProjectCard>
 	</div>
-	<SocialBar
-		class="m-4"
-		telegram="raxysstudios"
-		twitter="raxysstudios"
-		github="raxysstudios"
-		joint
-	/>
 </div>
