@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let iconUrl = 'src/img/raxys-color.png';
+	export let iconUrl = 'static/raxys-color.png';
 </script>
 
 <div class="bg-white shadow-md hover:shadow-lg rounded-sm flex flex-col p-4 gap-4 w-72">

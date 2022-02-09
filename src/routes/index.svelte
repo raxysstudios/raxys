@@ -9,7 +9,7 @@
 		class="absolute w-full h-full -z-10 -translate-y-1/4 opacity-30 bg-cover bg-center"
 	/>
 	<div class="flex flex-col items-center">
-		<img class="w-64" src="src/img/raxys.png" alt="raxys" />
+		<img class="w-64" src="static/raxys.png" alt="raxys" />
 		<h1 class="text-4xl font-bold">Raxys Studios</h1>
 		<p class="text-center font-medium">Made with honor in North Caucasus</p>
 	</div>
@@ -75,6 +75,6 @@
 	#map {
 		--bg: rgb(241 245 249);
 		background-image: linear-gradient(transparent 70%, var(--bg) 85%, var(--bg)),
-			url(src/img/map.png);
+			url(static/map.png);
 	}
 </style>
