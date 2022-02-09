@@ -24,11 +24,10 @@
 			</slot>
 			<SocialBar
 				slot="footer"
-				telegram="raxysstudios"
-				twitter="raxysstudios"
-				github="raxysstudios"
-				appStoreUrl="raxysstudios"
-				googlePlayUrl="raxysstudios"
+				github="raxysstudios/avzag"
+				webAppUrl="https://avzag.app"
+				googlePlayUrl="https://play.google.com/store/apps/details?id=com.alkaitagi.avzag"
+				appStoreUrl="https://apps.apple.com/ru/app/avzag-languages-of-caucasus/id1603226004"
 			/>
 		</ProjectCard>
 		<ProjectCard
@@ -41,17 +40,20 @@
 			</slot>
 			<SocialBar
 				slot="footer"
-				github="raxysstudios"
-				webAppUrl="https://avzag.app"
-				appStoreUrl="raxysstudios"
-				googlePlayUrl="raxysstudios"
+				github="raxysstudios/avdan"
+				appStoreUrl="https://apps.apple.com/ru/app/avdan-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B0%D1%83%D0%B4%D0%B8%D0%BE-%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/id1604826853"
+				googlePlayUrl="https://play.google.com/store/apps/details?id=com.alkaitagi.avdan"
 			/>
 		</ProjectCard>
 
 		<ProjectCard>
 			<slot slot="title">Mecel</slot>
 			<slot slot="description">Mountain implementation of the viral word-guessing game.</slot>
-			<SocialBar slot="footer" twitter="raxysstudios" />
+			<SocialBar
+				slot="footer"
+				github="alkaitagi/mecel"
+				webAppUrl="https://alkaitagi.github.io/mecel/"
+			/>
 		</ProjectCard>
 
 		<ProjectCard
@@ -61,5 +63,8 @@
 			<slot slot="description">Interactive non-linear narratives.</slot>
 			<p class="text-sm italic" slot="footer">Coming soon...</p>
 		</ProjectCard>
+	</div>
+	<div>
+		<SocialBar telegram="raxysstudios" twitter="raxysstudios" github="raxysstudios" />
 	</div>
 </div>

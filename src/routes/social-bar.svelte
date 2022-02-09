@@ -5,37 +5,40 @@
 	export let webAppUrl = '';
 	export let googlePlayUrl = '';
 	export let appStoreUrl = '';
+	export let split = true;
 </script>
 
 <div id="bar" class="flex flex-row gap-3">
 	{#if telegram}
-		<a href={'https://t.me/' + telegram}>
+		<a href={'https://t.me/' + telegram} target="_blank">
 			<span class="iconify" data-icon="mdi:telegram" data-inline="false" />
 		</a>
 	{/if}
 	{#if twitter}
-		<a href={'https://twitter.com/' + twitter}>
+		<a href={'https://twitter.com/' + twitter} target="_blank">
 			<span class="iconify" data-icon="mdi:twitter" data-inline="false" />
 		</a>
 	{/if}
 	{#if github}
-		<a href={'https://github.com/' + github}>
+		<a href={'https://github.com/' + github} target="_blank">
 			<span class="iconify" data-icon="mdi:github" data-inline="false" />
 		</a>
 	{/if}
-	<span class="flex-1" />
+	{#if split}
+		<span class="flex-1" />
+	{/if}
 	{#if webAppUrl}
-		<a href={webAppUrl}>
+		<a href={webAppUrl} target="_blank">
 			<span class="iconify" data-icon="mdi:open-in-app" />
 		</a>
 	{/if}
 	{#if googlePlayUrl}
-		<a href={googlePlayUrl}>
+		<a href={googlePlayUrl} target="_blank">
 			<span class="iconify" data-icon="mdi:google-play" data-inline="false" />
 		</a>
 	{/if}
 	{#if appStoreUrl}
-		<a href={appStoreUrl}>
+		<a href={appStoreUrl} target="_blank">
 			<span class="iconify" data-icon="ion:ios-appstore" data-inline="false" />
 		</a>
 	{/if}
