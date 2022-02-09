@@ -22,7 +22,14 @@
 			<slot slot="description">
 				Expandable parallel language guide to the languages of the Caucasus in English.
 			</slot>
-			<SocialBar slot="footer" twitter="raxysstudios" />
+			<SocialBar
+				slot="footer"
+				telegram="raxysstudios"
+				twitter="raxysstudios"
+				github="raxysstudios"
+				appStoreUrl="raxysstudios"
+				googlePlayUrl="raxysstudios"
+			/>
 		</ProjectCard>
 		<ProjectCard
 			iconUrl="https://raw.githubusercontent.com/raxysstudios/avdan/main/assets/icon.png"
@@ -32,7 +39,6 @@
 				Application to help learn the native languages through the library of authentic cards with
 				quality voiceover.
 			</slot>
-			<SocialBar slot="footer" twitter="raxysstudios" />
 		</ProjectCard>
 
 		<ProjectCard>

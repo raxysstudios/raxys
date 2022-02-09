@@ -6,20 +6,40 @@
 	export let github = '';
 </script>
 
-<div class="flex flex-row">
+<div class="flex flex-row gap-3">
 	{#if telegram}
-		<a href={'https://t.me/' + telegram}>GitHub</a>
+		<a href={'https://t.me/' + telegram}>
+			<span class="iconify" data-icon="mdi:telegram" data-inline="false" />
+		</a>
 	{/if}
 	{#if twitter}
-		<a href={'https://twitter.com/' + twitter}>GitHub</a>
+		<a href={'https://twitter.com/' + twitter}>
+			<span class="iconify" data-icon="mdi:twitter" data-inline="false" />
+		</a>
 	{/if}
+	<span class="flex-grow" />
 	{#if googlePlayUrl}
-		<a href={googlePlayUrl}>GitHub</a>
+		<a href={googlePlayUrl}>
+			<span class="iconify" data-icon="mdi:google-play" data-inline="false" />
+		</a>
 	{/if}
 	{#if appStoreUrl}
-		<a href={appStoreUrl}>GitHub</a>
+		<a href={appStoreUrl}>
+			<span class="iconify" data-icon="ion:ios-appstore" data-inline="false" />
+		</a>
 	{/if}
 	{#if github}
-		<a href={'https://github.com/' + github}>GitHub</a>
+		<a href={'https://github.com/' + github}>
+			<span class="iconify" data-icon="mdi:github" data-inline="false" />
+		</a>
 	{/if}
 </div>
+
+<style class="postcss">
+	.iconify {
+		font-size: 24px;
+	}
+	a:hover {
+		@apply scale-125;
+	}
+</style>
