@@ -1,5 +1,6 @@
 <script>
 	import ProjectCard from './project-card.svelte';
+	import SocialBar from './social-bar.svelte';
 </script>
 
 <div class="flex flex-col items-center">
@@ -17,10 +18,11 @@
 		<ProjectCard
 			iconUrl="https://raw.githubusercontent.com/raxysstudios/avzag/main/assets/icon.png"
 		>
-			<span slot="title">Avzag</span>
-			<span slot="description">
+			<slot slot="title">Avzag</slot>
+			<slot slot="description">
 				Expandable parallel language guide to the languages of the Caucasus in English.
-			</span>
+			</slot>
+			<SocialBar slot="footer" twitter="raxysstudios" />
 		</ProjectCard>
 		<ProjectCard
 			iconUrl="https://raw.githubusercontent.com/raxysstudios/avdan/main/assets/icon.png"
@@ -30,11 +32,21 @@
 				Application to help learn the native languages through the library of authentic cards with
 				quality voiceover.
 			</slot>
+			<SocialBar slot="footer" twitter="raxysstudios" />
 		</ProjectCard>
 
 		<ProjectCard>
 			<slot slot="title">Mecel</slot>
-			<slot slot="description">Mountain word-guessing game.</slot>
+			<slot slot="description">Mountain implementation of the viral word-guessing game.</slot>
+			<SocialBar slot="footer" twitter="raxysstudios" />
+		</ProjectCard>
+
+		<ProjectCard
+			iconUrl="https://raw.githubusercontent.com/raxysstudios/andax/main/assets/icon.png"
+		>
+			<slot slot="title">Andax</slot>
+			<slot slot="description">Interactive non-linear narratives.</slot>
+			<p class="text-sm italic" slot="footer">Coming soon...</p>
 		</ProjectCard>
 	</div>
 </div>

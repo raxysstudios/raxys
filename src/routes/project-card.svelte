@@ -7,5 +7,9 @@
 		<img class="w-12 rounded-lg" src={iconUrl} alt="icon" />
 		<h3 class="text-2xl font-bold"><slot name="title" /></h3>
 	</div>
-	<p><slot name="description" /></p>
+	<p class="flex grow"><slot name="description" /></p>
+	{#if $$slots.footer}
+		<hr />
+		<slot name="footer" />
+	{/if}
 </div>

@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	@apply bg-slate-100;
+}
+
 * {
 	@apply select-none duration-150 font-['Fira_Sans'];
 }
