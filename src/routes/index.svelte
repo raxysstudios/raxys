@@ -6,9 +6,9 @@
 <div class="flex flex-col items-center">
 	<div
 		class="absolute w-full h-full -z-10 -translate-y-[15%] opacity-25 bg-cover bg-center"
-		style="background-image: linear-gradient(transparent, transparent 70%, white 80%, white), url(src/map.png);"
+		style="background-image: linear-gradient(transparent, transparent 70%, white 80%, white), url(src/img/map.png);"
 	/>
-	<img class="w-64" src="src/raxys.png" alt="raxys" />
+	<img class="w-64" src="src/img/raxys.png" alt="raxys" />
 	<h1 class="text-4xl font-bold">Raxys Studios</h1>
 	<p class="text-center font-medium">Made with honor in North Caucasus</p>
 </div>
