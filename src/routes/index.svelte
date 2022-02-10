@@ -28,10 +28,13 @@
 		class="absolute w-full h-full -z-10 -translate-y-[10%] opacity-40 bg-cover bg-center"
 		style="background-image: linear-gradient(transparent 80%, rgb(241 245 249)), url({map})"
 	/>
-	<div class="flex flex-col items-center">
+	<div class="flex flex-col items-stretch text-center">
 		<img class="w-64" src={raxys} alt="raxys" />
 		<h1 class="text-4xl font-bold">Raxys Studios</h1>
-		<p class="text-center font-medium">Made with honor in North Caucasus</p>
+		<p class="font-medium">
+			Made with honor in
+			<span class="whitespace-nowrap">North Caucasus</span>
+		</p>
 	</div>
 	<SocialBar telegram="raxysstudios" twitter="raxysstudios" github="raxysstudios" joint />
 	<p class="max-w-xl indent-7 text-justify italic">
