@@ -1,15 +1,35 @@
-<script>
+<script lang="ts">
+	import Typewriter from 'typewriter-effect/dist/core';
+
 	import ProjectCard from '$lib/project-card.svelte';
 	import SocialBar from '$lib/social-bar.svelte';
+
+	import raxys from '$lib/assets/raxys.png';
+	import map from '$lib/assets/map.png';
+	import quotes from '$lib/assets/quotes.json';
+
+	let quoteEl: HTMLSpanElement;
+	$: {
+		if (quoteEl)
+			new Typewriter(quoteEl, {
+				strings: quotes,
+				autoStart: true,
+				cursor: '',
+				loop: true,
+				delay: 30,
+				deleteSpeed: 30,
+				pauseFor: 5000
+			});
+	}
 </script>
 
 <div class="flex flex-col items-center mb-8 mx-8 gap-4">
 	<div
-		id="map"
 		class="absolute w-full h-full -z-10 -translate-y-[10%] opacity-40 bg-cover bg-center"
+		style="background-image: linear-gradient(transparent 80%, rgb(241 245 249)), url({map})"
 	/>
 	<div class="flex flex-col items-center">
-		<img class="w-64" src="raxys.png" alt="raxys" />
+		<img class="w-64" src={raxys} alt="raxys" />
 		<h1 class="text-4xl font-bold">Raxys Studios</h1>
 		<p class="text-center font-medium">Made with honor in North Caucasus</p>
 	</div>
@@ -70,8 +90,6 @@
 	</ProjectCard>
 </div>
 
-<style>
-	#map {
-		background-image: linear-gradient(transparent 80%, rgb(241 245 249)), url('map.png');
-	}
-</style>
+<hr />
+
+<p bind:this={quoteEl} class="min-h-[2rem] m-8 text-center text-xs whitespace-pre-wrap italic" />
