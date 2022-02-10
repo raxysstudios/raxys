@@ -1,27 +1,11 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import Typewriter from 'typewriter-effect/dist/core';
-
 	import ProjectCard from '$lib/project-card.svelte';
 	import SocialBar from '$lib/social-bar.svelte';
 
 	import raxys from '$lib/assets/raxys.png';
 	import map from '$lib/assets/map.png';
 	import quotes from '$lib/assets/quotes.json';
-
-	let quoteEl: HTMLSpanElement;
-	onMount(
-		() =>
-			new Typewriter(quoteEl, {
-				strings: quotes,
-				autoStart: true,
-				cursor: '',
-				loop: true,
-				delay: 30,
-				deleteSpeed: 30,
-				pauseFor: 5000
-			})
-	);
+	import LoopedTypewriter from '$lib/looped-typewriter.svelte';
 </script>
 
 <div class="flex flex-col items-center px-8 pb-8 gap-4 relative">
@@ -96,4 +80,6 @@
 
 <hr />
 
-<p bind:this={quoteEl} class="min-h-[2rem] m-8 text-center text-xs whitespace-pre-wrap italic" />
+<p class="min-h-[2rem] m-8 text-center text-xs whitespace-pre-wrap italic">
+	<LoopedTypewriter strings={quotes} />
+</p>
