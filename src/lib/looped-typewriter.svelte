@@ -1,10 +1,9 @@
-<script lang="ts">
+<script>
 	import { onMount } from 'svelte';
-	import Typewriter from 'typewriter-effect/dist/core';
 
-	export let strings = [] as String[];
+	export let strings = [];
 
-	function shuffle(array: unknown[]) {
+	function shuffle(array) {
 		let currentIndex = array.length;
 		let randomIndex = 0;
 		while (currentIndex != 0) {
@@ -19,9 +18,10 @@
 		return array;
 	}
 
-	let quote: HTMLSpanElement;
+	let quote;
 	onMount(
 		() =>
+			// @ts-ignore
 			new Typewriter(quote, {
 				strings: shuffle(strings),
 				autoStart: true,
