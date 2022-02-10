@@ -6,7 +6,7 @@
 <div class="flex flex-col items-center mb-8 mx-8 gap-4">
 	<div
 		id="map"
-		class="absolute w-full h-full -z-10 -translate-y-1/4 opacity-30 bg-cover bg-center"
+		class="absolute w-full h-full -z-10 -translate-y-1/4 opacity-40 bg-cover bg-center"
 	/>
 	<div class="flex flex-col items-center">
 		<img class="w-64" src="raxys.png" alt="raxys" />
@@ -73,6 +73,7 @@
 <style>
 	#map {
 		--bg: rgb(241 245 249);
-		background-image: linear-gradient(transparent 75%, var(--bg) 85%, var(--bg)), url('map.png');
+		background-image: linear-gradient(transparent 80%, var(--bg) 90%, var(--bg)),
+			linear-gradient(-160deg, transparent 60%, var(--bg) 70%, var(--bg)), url('map.png');
 	}
 </style>
