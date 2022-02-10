@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import Typewriter from 'typewriter-effect/dist/core';
 
 	import ProjectCard from '$lib/project-card.svelte';
@@ -9,8 +10,8 @@
 	import quotes from '$lib/assets/quotes.json';
 
 	let quoteEl: HTMLSpanElement;
-	$: {
-		if (quoteEl)
+	onMount(
+		() =>
 			new Typewriter(quoteEl, {
 				strings: quotes,
 				autoStart: true,
@@ -19,8 +20,8 @@
 				delay: 30,
 				deleteSpeed: 30,
 				pauseFor: 5000
-			});
-	}
+			})
+	);
 </script>
 
 <div class="flex flex-col items-center px-8 pb-8 gap-4 relative">
