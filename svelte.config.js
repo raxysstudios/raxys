@@ -7,7 +7,6 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess(),
 	kit: {
-		paths: { base: '/raxys' },
 		adapter: adapter()
 	}
 };
