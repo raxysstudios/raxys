@@ -6,7 +6,7 @@
 <div class="flex flex-col items-center mb-8 mx-8 gap-4">
 	<div
 		id="map"
-		class="absolute w-full h-full -z-10 -translate-y-1/4 opacity-40 bg-cover bg-center"
+		class="absolute w-full h-full -z-10 -translate-y-[10%] opacity-40 bg-cover bg-center"
 	/>
 	<div class="flex flex-col items-center">
 		<img class="w-64" src="raxys.png" alt="raxys" />
@@ -14,12 +14,12 @@
 		<p class="text-center font-medium">Made with honor in North Caucasus</p>
 	</div>
 	<SocialBar telegram="raxysstudios" twitter="raxysstudios" github="raxysstudios" joint />
-	<p class="max-w-xl indent-14 text-justify">
-		They shall be my finest warriors, these men who give themselves to me. Like clay I shall mould
+	<p class="max-w-xl indent-14 text-justify italic">
+		"They shall be my finest warriors, these men who give themselves to me. Like clay I shall mould
 		them and in the furnace of war forge them. They will be of iron will and steely muscle. In great
 		armour shall I clad them and with the mightiest guns will they be armed. They will be untouched
 		by plague or disease, no sickness will blight them. They will have tactics, strategies and
-		machines such that no foe can best them in battle.
+		machines such that no foe can best them in battle."
 	</p>
 </div>
 
@@ -72,8 +72,6 @@
 
 <style>
 	#map {
-		--bg: rgb(241 245 249);
-		background-image: linear-gradient(transparent 80%, var(--bg) 90%, var(--bg)),
-			linear-gradient(-160deg, transparent 60%, var(--bg) 70%, var(--bg)), url('map.png');
+		background-image: linear-gradient(transparent 80%, rgb(241 245 249)), url('map.png');
 	}
 </style>
