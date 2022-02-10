@@ -34,7 +34,7 @@
 		<p class="text-center font-medium">Made with honor in North Caucasus</p>
 	</div>
 	<SocialBar telegram="raxysstudios" twitter="raxysstudios" github="raxysstudios" joint />
-	<p class="max-w-xl indent-14 text-justify italic">
+	<p class="max-w-xl indent-7 text-justify italic">
 		"They shall be my finest warriors, these men who give themselves to me. Like clay I shall mould
 		them and in the furnace of war forge them. They will be of iron will and steely muscle. In great
 		armour shall I clad them and with the mightiest guns will they be armed. They will be untouched
