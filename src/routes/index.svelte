@@ -23,7 +23,7 @@
 	}
 </script>
 
-<div class="flex flex-col items-center mb-8 mx-8 gap-4">
+<div class="flex flex-col items-center px-8 pb-8 gap-4 relative">
 	<div
 		class="absolute w-full h-full -z-10 -translate-y-[10%] opacity-40 bg-cover bg-center"
 		style="background-image: linear-gradient(transparent 80%, rgb(241 245 249)), url({map})"
@@ -47,7 +47,7 @@
 </div>
 
 <hr />
-<div class="flex flex-row justify-center flex-wrap gap-8 m-8">
+<div class="flex flex-row justify-center flex-wrap gap-8 p-8">
 	<ProjectCard iconUrl="https://raw.githubusercontent.com/raxysstudios/avzag/main/assets/icon.png">
 		<slot slot="title">Avzag</slot>
 		<slot slot="description">
