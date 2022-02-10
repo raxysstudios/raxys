@@ -15,12 +15,11 @@
 	</div>
 	<SocialBar telegram="raxysstudios" twitter="raxysstudios" github="raxysstudios" joint />
 	<p class="max-w-xl indent-14 text-justify">
-		…Флаг этот следующего описания: семь белых поперечных полос чередуются с семью зелеными
-		поперечными же полосами сверху в них, а в верхнем углу полотнища у древка, на голубом фоне
-		четырехугольника, располагаются семь белых семигранных звезд, как эмблема семи главных
-		народностей, входящих в состав Республики. Цвет голубой был включен во флаг в отличие флага
-		нашей республики от флагов германских государств Ангульт и Саксония, имеющих национальные флаги
-		белого и зеленого цветов…
+		They shall be my finest warriors, these men who give themselves to me. Like clay I shall mould
+		them and in the furnace of war forge them. They will be of iron will and steely muscle. In great
+		armour shall I clad them and with the mightiest guns will they be armed. They will be untouched
+		by plague or disease, no sickness will blight them. They will have tactics, strategies and
+		machines such that no foe can best them in battle.
 	</p>
 </div>
 
@@ -74,6 +73,6 @@
 <style>
 	#map {
 		--bg: rgb(241 245 249);
-		background-image: linear-gradient(transparent 70%, var(--bg) 85%, var(--bg)), url(map.png);
+		background-image: linear-gradient(transparent 75%, var(--bg) 85%, var(--bg)), url('map.png');
 	}
 </style>
