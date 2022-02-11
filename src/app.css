@@ -13,9 +13,5 @@ body {
 }
 
 * {
-	@apply select-none duration-150 font-['Fira_Sans'];
-}
-
-img {
-	@apply pointer-events-none;
+	@apply duration-150 font-['Fira_Sans'];
 }
