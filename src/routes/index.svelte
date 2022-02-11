@@ -8,10 +8,10 @@
 	import LoopedTypewriter from '$lib/looped-typewriter.svelte';
 </script>
 
-<div class="flex flex-col items-center px-8 pb-8 gap-4 relative">
+<div class="flex flex-col items-center px-8 pb-8 gap-4 relative" style="">
 	<div
-		class="absolute w-full h-full -z-10 -translate-y-[10%] opacity-40 bg-cover bg-center"
-		style="background-image: linear-gradient(transparent 80%, rgb(241 245 249)), url({map})"
+		class="absolute w-full h-full -z-10 opacity-40 bg-cover bg-center"
+		style="background-image: linear-gradient(rgb(241 245 249), transparent 25%, transparent 75%, rgb(241 245 249)), url({map})"
 	/>
 	<div class="flex flex-col items-stretch text-center">
 		<img class="w-64" src={raxys} alt="raxys" />
