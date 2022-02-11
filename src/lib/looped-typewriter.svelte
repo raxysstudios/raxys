@@ -27,8 +27,8 @@
 				autoStart: true,
 				cursor: '',
 				loop: true,
-				delay: 30,
-				deleteSpeed: 30,
+				delay: 1,
+				deleteSpeed: 1,
 				pauseFor: 5000
 			})
 	);
