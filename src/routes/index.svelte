@@ -54,7 +54,7 @@
 		<SocialBar
 			slot="footer"
 			github="raxysstudios/avdan"
-			webAppUrl="https://raxysstudios.github.io/avdan/"
+			webAppUrl="https://avdan.raxys.app"
 			googlePlayUrl="https://play.google.com/store/apps/details?id=com.alkaitagi.avdan"
 			appStoreUrl="https://apps.apple.com/app/avdan-native-language-cards/id1604826853"
 		/>
