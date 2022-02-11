@@ -3,7 +3,7 @@
 	export let iconUrl = '';
 </script>
 
-<div class="bg-white shadow-md hover:shadow-lg rounded-sm flex flex-col p-4 gap-4 w-72">
+<div class="bg-white shadow-md hover:shadow-lg rounded-sm flex flex-col p-4 gap-4 w-full sm:w-72 ">
 	<div class="flex flex-row items-center gap-4">
 		<img class="w-12 rounded-md" src={iconUrl ? iconUrl : icon} alt="icon" />
 		<h3 class="text-2xl font-bold flex-1"><slot name="title" /></h3>
