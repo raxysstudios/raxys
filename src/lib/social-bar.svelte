@@ -10,17 +10,17 @@
 
 <div id="bar" class="flex flex-row gap-3 {$$props.class}">
 	{#if telegram}
-		<a href={'https://t.me/' + telegram} target="_blank">
+		<a href={'https://t.me/' + telegram}>
 			<span class="iconify" data-icon="mdi:telegram" data-inline="false" />
 		</a>
 	{/if}
 	{#if twitter}
-		<a href={'https://twitter.com/' + twitter} target="_blank">
+		<a href={'https://twitter.com/' + twitter}>
 			<span class="iconify" data-icon="mdi:twitter" data-inline="false" />
 		</a>
 	{/if}
 	{#if github}
-		<a href={'https://github.com/' + github} target="_blank">
+		<a href={'https://github.com/' + github}>
 			<span class="iconify" data-icon="mdi:github" data-inline="false" />
 		</a>
 	{/if}
@@ -28,17 +28,17 @@
 		<span class="flex-1" />
 	{/if}
 	{#if webAppUrl}
-		<a href={webAppUrl} target="_blank">
+		<a href={webAppUrl}>
 			<span class="iconify" data-icon="mdi:open-in-app" />
 		</a>
 	{/if}
 	{#if googlePlayUrl}
-		<a href={googlePlayUrl} target="_blank">
+		<a href={googlePlayUrl}>
 			<span class="iconify" data-icon="mdi:google-play" data-inline="false" />
 		</a>
 	{/if}
 	{#if appStoreUrl}
-		<a href={appStoreUrl} target="_blank">
+		<a href={appStoreUrl}>
 			<span class="iconify" data-icon="ion:ios-appstore" data-inline="false" />
 		</a>
 	{/if}
