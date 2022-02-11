@@ -26,7 +26,7 @@
 		"They shall be my finest warriors, these men who give themselves to me. Like clay I shall mould
 		them and in the furnace of war forge them. They will be of iron will and steely muscle. In great
 		armour shall I clad them and with the mightiest guns will they be armed. They will have tactics,
-		strategies and machines such that no foe can best them in battle."
+		strategies and machines such that no foe can best them in battle..."
 	</p>
 </div>
 
