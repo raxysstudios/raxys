@@ -23,10 +23,11 @@
 	</div>
 	<SocialBar telegram="raxysstudios" twitter="raxysstudios" github="raxysstudios" joint />
 	<p class="max-w-xl indent-7 text-justify italic">
-		"They shall be my finest warriors, these men who give themselves to me. Like clay I shall mould
-		them and in the furnace of war forge them. They will be of iron will and steely muscle. In great
-		armour shall I clad them and with the mightiest guns will they be armed. They will have tactics,
-		strategies and machines such that no foe can best them in battle..."
+		"The Circassians nobly represent in the Caucasus that chivalrous and warlike spirit that shed so
+		much brilliance on the peoples of the Middle Ages. Courage, intelligence, beauty: nature gave
+		them a noble dignity, which has never been refuted and which they combined with the most
+		chivalrous feelings and with an ardent love of national freedom."
+		<span class="whitespace-nowrap"> — Xavier Hommaire de Hell</span>
 	</p>
 </div>
 
