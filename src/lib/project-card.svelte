@@ -9,8 +9,5 @@
 		<h3 class="text-2xl font-bold flex-1"><slot name="title" /></h3>
 	</div>
 	<p class="flex grow"><slot name="description" /></p>
-	{#if $$slots.footer}
-		<hr />
-		<slot name="footer" />
-	{/if}
+	<slot name="footer" />
 </div>
