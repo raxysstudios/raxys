@@ -67,9 +67,7 @@
 		<SocialBar slot="footer" github="raxysstudios/mecel" webAppUrl="https://mecel.raxys.app/" />
 	</ProjectCard>
 
-	<ProjectCard
-		iconUrl="https://raw.githubusercontent.com/raxysstudios/andax/icon-update/assets/icon.png"
-	>
+	<ProjectCard iconUrl="https://raw.githubusercontent.com/raxysstudios/andax/main/assets/icon.png">
 		<slot slot="title">Andax</slot>
 		<slot slot="description">Interactive non-linear narratives.</slot>
 		<p class="text-sm italic" slot="footer">Coming soon...</p>
