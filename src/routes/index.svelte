@@ -70,7 +70,7 @@
 	<ProjectCard iconUrl="https://raw.githubusercontent.com/raxysstudios/andax/main/assets/icon.png">
 		<slot slot="title">Andax</slot>
 		<slot slot="description">Interactive non-linear narratives.</slot>
-		<p class="text-sm italic" slot="footer">Coming soon...</p>
+		<SocialBar slot="footer" github="raxysstudios/andax" webAppUrl="https://andax.raxys.app/" />
 	</ProjectCard>
 </div>
 
