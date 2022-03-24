@@ -60,17 +60,15 @@
 			appStoreUrl="https://apps.apple.com/app/avdan-native-language-cards/id1604826853"
 		/>
 	</ProjectCard>
-
-	<ProjectCard>
-		<slot slot="title">Mecel</slot>
-		<slot slot="description">Mountain implementation of the viral word-guessing game.</slot>
-		<SocialBar slot="footer" github="raxysstudios/mecel" webAppUrl="https://mecel.raxys.app/" />
-	</ProjectCard>
-
 	<ProjectCard iconUrl="https://raw.githubusercontent.com/raxysstudios/andax/main/assets/icon.png">
 		<slot slot="title">Andax</slot>
 		<slot slot="description">Interactive non-linear narratives.</slot>
 		<SocialBar slot="footer" github="raxysstudios/andax" webAppUrl="https://andax.raxys.app/" />
+	</ProjectCard>
+	<ProjectCard>
+		<slot slot="title">Mecel</slot>
+		<slot slot="description">Mountain implementation of the viral word-guessing game.</slot>
+		<SocialBar slot="footer" github="raxysstudios/mecel" webAppUrl="https://mecel.raxys.app/" />
 	</ProjectCard>
 </div>
 
