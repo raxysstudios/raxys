@@ -7,6 +7,7 @@
 	import map from '$lib/assets/map.png';
 	import quotes from '$lib/assets/quotes.json';
 	import LoopedTypewriter from '$lib/looped-typewriter.svelte';
+	import LangsRibbon from '$lib/langs-ribbon.svelte';
 </script>
 
 <div class="flex flex-col items-center px-8 pb-8 gap-4 relative" style="">
@@ -72,6 +73,10 @@
 		<SocialBar slot="footer" github="raxysstudios/mecel" webAppUrl="https://mecel.raxys.app/" />
 	</ProjectCard>
 </div>
+
+<hr />
+
+<LangsRibbon />
 
 <hr />
 
