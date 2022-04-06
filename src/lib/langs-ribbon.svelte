@@ -20,7 +20,7 @@
 			on:focus={() => (hover[i] = true)}
 			on:mouseover={() => (hover[i] = true)}
 			on:mouseleave={() => (hover[i] = false)}
-			class="m-2 p-4 cursor-pointer relative overflow-visible"
+			class="p-8 cursor-pointer relative overflow-visible"
 		>
 			<span class:text-slate-300={hover[i]}>{lang.eng}</span>
 			<span
