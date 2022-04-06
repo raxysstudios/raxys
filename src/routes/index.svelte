@@ -3,6 +3,7 @@
 	import SocialBar from '$lib/social-bar.svelte';
 
 	import raxys from '$lib/assets/raxys.png';
+	import state from '$lib/assets/state.png';
 	import map from '$lib/assets/map.png';
 	import quotes from '$lib/assets/quotes.json';
 	import LoopedTypewriter from '$lib/looped-typewriter.svelte';
@@ -77,3 +78,5 @@
 <p class="min-h-[2rem] m-8 text-center text-xs whitespace-pre-wrap italic">
 	<LoopedTypewriter strings={quotes} />
 </p>
+
+<img class="w-32 m-auto" src={state} alt="raxys" />
