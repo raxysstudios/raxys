@@ -14,7 +14,7 @@
 <a href={url} on:click={nextUrl} target="_blank">
 	<div class="h-28 w-full relative overflow-hidden flex justify-center">
 		<img
-			class="absolute select-none h-28 m-auto translate-y-2 hover:translate-y-0 origin-bottom"
+			class="absolute select-none h-28 m-auto origin-bottom hover:scale-110 drop-shadow-lg hover:drop-shadow-xl"
 			src={state}
 			alt="raxys"
 		/>

@@ -15,7 +15,7 @@
 		style="background-image: linear-gradient(rgb(241 245 249), transparent 25%, transparent 75%, rgb(241 245 249)), url({map})"
 	/>
 	<div class="flex flex-col items-stretch text-center">
-		<img class="w-64" src={raxys} alt="raxys" />
+		<img class="w-64 drop-shadow-lg" src={raxys} alt="raxys" />
 		<h1 class="text-4xl font-bold">Raxys Studios</h1>
 		<p class="font-medium">
 			Made with honor in
