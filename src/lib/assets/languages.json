@@ -1,66 +1,73 @@
 [
     {
-        "eng": "east circassian",
-        "nat": "адыгэбзэ"
+        "name": "east circassian",
+        "nativeName": "адыгэбзэ",
+        "channelAlias": ""
     },
     {
-        "eng": "west circassian",
-        "nat": "адыгабзэ"
+        "name": "west circassian",
+        "nativeName": "адыгабзэ"
     },
     {
-        "eng": "kaitag",
-        "nat": "хайдакьан кув"
+        "name": "kaitag",
+        "nativeName": "хайдакьан кув",
+        "channelAlias": "kaitaglang"
     },
     {
-        "eng": "iron ossetian",
-        "nat": "ирон ӕвзаг "
+        "name": "iron ossetian",
+        "nativeName": "ирон ӕвзаг ",
+        "channelAlias": "ironau_online"
     },
     {
-        "eng": "digor ossetian",
-        "nat": "дигорон ӕвзаг"
+        "name": "digor ossetian",
+        "nativeName": "дигорон ӕвзаг"
     },
     {
-        "eng": "аvar",
-        "nat": "магӏарул мацӏ"
+        "name": "аvar",
+        "nativeName": "магӏарул мацӏ"
     },
     {
-        "eng": "lezgi",
-        "nat": "лезги чӏал"
+        "name": "lezgi",
+        "nativeName": "лезги чӏал",
+        "channelAlias": "lezgian_language"
     },
     {
-        "eng": "karachay-balkar",
-        "nat": "таулу тил"
+        "name": "karachay-balkar",
+        "nativeName": "таулу тил"
     },
     {
-        "eng": "аbkhaz",
-        "nat": "аԥсуа бызшәа"
+        "name": "аbkhaz",
+        "nativeName": "аԥсуа бызшәа"
     },
     {
-        "eng": "dargwa",
-        "nat": "дарган мез"
+        "name": "dargwa",
+        "nativeName": "дарган мез"
     },
     {
-        "eng": "kumyk",
-        "nat": "къумукъ тил"
+        "name": "kumyk",
+        "nativeName": "къумукъ тил",
+        "channelAlias": "qumuqsozluk"
     },
     {
-        "eng": "aghul",
-        "nat": "агъул чӏал"
+        "name": "aghul",
+        "nativeName": "агъул чӏал",
+        "channelAlias": "ruxavus"
     },
     {
-        "eng": "tsakhur",
-        "nat": "цӏаӏхна миз"
+        "name": "tsakhur",
+        "nativeName": "цӏаӏхна миз",
+        "channelAlias": "yiqblog"
     },
     {
-        "eng": "chechen",
-        "nat": "нохчийн мотт"
+        "name": "chechen",
+        "nativeName": "нохчийн мотт"
     },
     {
-        "eng": "abaza",
-        "nat": "абаза бызшва"
+        "name": "abaza",
+        "nativeName": "абаза бызшва"
     },
     {
-        "eng": "nogai",
-        "nat": "ногай тили"
+        "name": "nogai",
+        "nativeName": "ногай тили"
     }
 ]
