@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { default as _langs } from '$lib/assets/langs.json';
+	import { default as _langs } from '$lib/assets/languages.json';
 	import { onMount } from 'svelte';
-	import { shuffle } from './utils/shuffle';
+	import _ from 'lodash';
 
 	type Lang = { eng: String; nat: String };
 
@@ -9,7 +9,7 @@
 	let hover: boolean[] = [];
 
 	onMount(() => {
-		langs = shuffle(_langs) as Lang[];
+		langs = _.shuffle(_langs) as Lang[];
 		hover = langs.map((_) => false);
 	});
 </script>
@@ -20,7 +20,7 @@
 			on:focus={() => (hover[i] = true)}
 			on:mouseover={() => (hover[i] = true)}
 			on:mouseleave={() => (hover[i] = false)}
-			class="px-8 py-4 cursor-pointer relative whitespace-nowrap"
+			class="px-8 py-4 cursor-default relative whitespace-nowrap"
 		>
 			<span class:blur-sm={hover[i]} class="italic text-slate-400">{lang.nat}</span>
 			<span

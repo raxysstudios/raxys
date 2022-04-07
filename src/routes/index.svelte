@@ -1,13 +1,12 @@
 <script lang="ts">
 	import ProjectCard from '$lib/project-card.svelte';
 	import SocialBar from '$lib/social-bar.svelte';
-
-	import raxys from '$lib/assets/raxys.png';
-	import state from '$lib/assets/state.png';
-	import map from '$lib/assets/map.png';
-	import quotes from '$lib/assets/quotes.json';
 	import LoopedTypewriter from '$lib/looped-typewriter.svelte';
 	import LangsRibbon from '$lib/langs-ribbon.svelte';
+
+	import raxys from '$lib/assets/raxys.png';
+	import map from '$lib/assets/map.png';
+	import RandomLink from '$lib/random-link.svelte';
 </script>
 
 <div class="flex flex-col items-center px-8 pb-8 gap-4 relative" style="">
@@ -78,6 +77,6 @@
 <LangsRibbon />
 <hr />
 <p class="m-8 min-h-[2rem] text-center text-xs whitespace-pre-wrap italic">
-	<LoopedTypewriter strings={quotes} />
+	<LoopedTypewriter />
 </p>
-<img class="w-32 m-auto" src={state} alt="raxys" />
+<RandomLink />
