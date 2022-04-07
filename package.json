@@ -34,7 +34,6 @@
   "type": "module",
   "dependencies": {
     "@types/lodash": "^4.14.181",
-    "lodash": "^4.17.21",
-    "typewriter-effect": "^2.18.2"
+    "lodash": "^4.17.21"
   }
 }
