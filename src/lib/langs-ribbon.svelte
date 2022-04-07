@@ -1,17 +1,12 @@
 <script lang="ts">
 	import { default as _langs } from '$lib/assets/languages.json';
-	import { onMount } from 'svelte';
 	import _ from 'lodash';
 
-	type Lang = { eng: String; nat: String };
-
-	let langs: Lang[] = [];
-	let hover: boolean[] = [];
-
-	onMount(() => {
-		langs = _.shuffle(_langs) as Lang[];
-		hover = langs.map((_) => false);
-	});
+	const langs = _.shuffle(_langs) as {
+		eng: String;
+		nat: String;
+	}[];
+	const hover = langs.map((_) => false);
 </script>
 
 <div class="flex flex-wrap p-4 justify-center text-sm text-center capitalize font-bold">

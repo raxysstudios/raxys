@@ -1,14 +1,12 @@
 <script lang="ts">
 	import state from '$lib/assets/state.png';
 	import _ from 'lodash';
-	import { onMount } from 'svelte';
 	import friends from './assets/friends.json';
 
+	const base = 'https://t.me/';
 	let url = '';
-	function nextUrl() {
-		url = 'https://t.me/' + _.sample(friends);
-	}
-	onMount(nextUrl);
+	const nextUrl = () => (url = base + _.sample(friends));
+	nextUrl();
 </script>
 
 <a href={url} on:click={nextUrl} target="_blank">
