@@ -14,21 +14,27 @@
 	});
 </script>
 
-<div class="flex text-sm text-center text-slate-400 font-bold capitalize">
+<div class="flex flex-wrap p-4 justify-center text-sm text-center capitalize font-bold">
 	{#each langs as lang, i}
 		<div
 			on:focus={() => (hover[i] = true)}
 			on:mouseover={() => (hover[i] = true)}
 			on:mouseleave={() => (hover[i] = false)}
-			class="p-8 cursor-pointer relative overflow-visible"
+			class="px-8 py-4 cursor-pointer relative whitespace-nowrap "
 		>
-			<span class:text-slate-300={hover[i]}>{lang.eng}</span>
+			<span class:hovered={hover[i]} class="italic text-slate-400">{lang.nat}</span>
 			<span
-				class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-transparent whitespace-nowrap pointer-events-none"
-				class:!text-black={hover[i]}
+				class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+				class:text-transparent={!hover[i]}
 			>
-				{lang.nat}
+				{lang.eng}
 			</span>
 		</div>
 	{/each}
 </div>
+
+<style lang="postcss">
+	.hovered {
+		@apply blur-[2px];
+	}
+</style>

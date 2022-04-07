@@ -75,13 +75,9 @@
 </div>
 
 <hr />
-
 <LangsRibbon />
-
 <hr />
-
-<p class="min-h-[2rem] m-8 text-center text-xs whitespace-pre-wrap italic">
+<p class="m-8 min-h-[2rem] text-center text-xs whitespace-pre-wrap italic">
 	<LoopedTypewriter strings={quotes} />
 </p>
-
 <img class="w-32 m-auto" src={state} alt="raxys" />
