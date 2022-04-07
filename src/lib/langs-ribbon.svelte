@@ -20,9 +20,9 @@
 			on:focus={() => (hover[i] = true)}
 			on:mouseover={() => (hover[i] = true)}
 			on:mouseleave={() => (hover[i] = false)}
-			class="px-8 py-4 cursor-pointer relative whitespace-nowrap "
+			class="px-8 py-4 cursor-pointer relative whitespace-nowrap"
 		>
-			<span class:hovered={hover[i]} class="italic text-slate-400">{lang.nat}</span>
+			<span class:blur-sm={hover[i]} class="italic text-slate-400">{lang.nat}</span>
 			<span
 				class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
 				class:text-transparent={!hover[i]}
@@ -32,9 +32,3 @@
 		</div>
 	{/each}
 </div>
-
-<style lang="postcss">
-	.hovered {
-		@apply blur-[2px];
-	}
-</style>
