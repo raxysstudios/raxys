@@ -13,7 +13,7 @@
 	const hover = langs.map((_) => false);
 </script>
 
-<div class="flex flex-wrap p-4 justify-center text-sm text-center capitalize font-bold">
+<div class="flex flex-wrap px-4 py-6 justify-center text-sm text-center capitalize font-bold">
 	{#each langs as lang, i}
 		<a
 			href={getTgUrl(lang.channel)}
@@ -21,7 +21,7 @@
 			on:focus={() => (hover[i] = true)}
 			on:mouseover={() => (hover[i] = true)}
 			on:mouseleave={() => (hover[i] = false)}
-			class="p-4 relative whitespace-nowrap"
+			class="px-4 py-2 relative whitespace-nowrap"
 			class:cursor-default={!lang.channel}
 		>
 			<span class:blur-sm={hover[i]} class="italic text-slate-400">
