@@ -1,5 +1,7 @@
 <script>
+	// @ts-nocheck
 	import { onMount } from 'svelte';
+	import Typewriter from 'typewriter-effect/dist/core';
 	import quotes from './assets/quotes.json';
 	import _ from 'lodash';
 
