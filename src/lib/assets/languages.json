@@ -1,73 +1,73 @@
 [
     {
         "name": "east circassian",
-        "nativeName": "адыгэбзэ",
-        "channelAlias": ""
+        "endonym": "адыгэбзэ"
     },
     {
         "name": "west circassian",
-        "nativeName": "адыгабзэ"
+        "endonym": "адыгабзэ"
     },
     {
         "name": "kaitag",
-        "nativeName": "хайдакьан кув",
-        "channelAlias": "kaitaglang"
+        "endonym": "хайдакьан кув",
+        "channel": "kaitaglang"
     },
     {
         "name": "iron ossetian",
-        "nativeName": "ирон ӕвзаг ",
-        "channelAlias": "ironau_online"
+        "endonym": "ирон ӕвзаг ",
+        "channel": "ironau_online"
     },
     {
         "name": "digor ossetian",
-        "nativeName": "дигорон ӕвзаг"
+        "endonym": "дигорон ӕвзаг"
     },
     {
         "name": "аvar",
-        "nativeName": "магӏарул мацӏ"
+        "endonym": "магӏарул мацӏ",
+        "channel": "avar_language"
     },
     {
         "name": "lezgi",
-        "nativeName": "лезги чӏал",
-        "channelAlias": "lezgian_language"
+        "endonym": "лезги чӏал",
+        "channel": "lezgian_language"
     },
     {
         "name": "karachay-balkar",
-        "nativeName": "таулу тил"
+        "endonym": "таулу тил"
     },
     {
         "name": "аbkhaz",
-        "nativeName": "аԥсуа бызшәа"
+        "endonym": "аԥсуа бызшәа"
     },
     {
         "name": "dargwa",
-        "nativeName": "дарган мез"
+        "endonym": "дарган мез"
     },
     {
         "name": "kumyk",
-        "nativeName": "къумукъ тил",
-        "channelAlias": "qumuqsozluk"
+        "endonym": "къумукъ тил",
+        "channel": "qumuqsozluk"
     },
     {
         "name": "aghul",
-        "nativeName": "агъул чӏал",
-        "channelAlias": "ruxavus"
+        "endonym": "агъул чӏал",
+        "channel": "ruxavus"
     },
     {
         "name": "tsakhur",
-        "nativeName": "цӏаӏхна миз",
-        "channelAlias": "yiqblog"
+        "endonym": "цӏаӏхна миз",
+        "channel": "yiqblog"
     },
     {
         "name": "chechen",
-        "nativeName": "нохчийн мотт"
+        "endonym": "нохчийн мотт"
     },
     {
         "name": "abaza",
-        "nativeName": "абаза бызшва"
+        "endonym": "абаза бызшва"
     },
     {
         "name": "nogai",
-        "nativeName": "ногай тили"
+        "endonym": "ногай тили"
     }
 ]

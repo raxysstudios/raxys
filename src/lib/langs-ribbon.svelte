@@ -5,8 +5,8 @@
 
 	type Language = {
 		name: string;
-		nativeName: string;
-		channelAlias?: string;
+		endonym: string;
+		channel?: string;
 	};
 
 	const langs = _.shuffle(_langs as Language[]);
@@ -16,16 +16,16 @@
 <div class="flex flex-wrap p-4 justify-center text-sm text-center capitalize font-bold">
 	{#each langs as lang, i}
 		<a
-			href={getTgUrl(lang.channelAlias)}
+			href={getTgUrl(lang.channel)}
 			target="_blank"
 			on:focus={() => (hover[i] = true)}
 			on:mouseover={() => (hover[i] = true)}
 			on:mouseleave={() => (hover[i] = false)}
 			class="p-4 relative whitespace-nowrap"
-			class:cursor-default={!lang.channelAlias}
+			class:cursor-default={!lang.channel}
 		>
 			<span class:blur-sm={hover[i]} class="italic text-slate-400">
-				{lang.nativeName}
+				{lang.endonym}
 			</span>
 			<span
 				class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
