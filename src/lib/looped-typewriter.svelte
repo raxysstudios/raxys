@@ -1,15 +1,14 @@
 <script>
 	import { onMount } from 'svelte';
-	import { shuffle } from './utils/shuffle';
-
-	export let strings = [];
+	import quotes from './assets/quotes.json';
+	import _ from 'lodash';
 
 	let quote;
 	onMount(
 		() =>
 			// @ts-ignore
 			new Typewriter(quote, {
-				strings: shuffle(strings),
+				strings: _.shuffle(quotes),
 				autoStart: true,
 				cursor: '',
 				loop: true,
