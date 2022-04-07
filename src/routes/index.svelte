@@ -76,7 +76,7 @@
 <hr />
 <LangsRibbon />
 <hr />
-<p class="m-8 min-h-[2rem] text-center text-xs whitespace-pre-wrap italic">
+<p class="mt-8 mb-4 min-h-[2rem] text-center text-xs whitespace-pre-wrap italic">
 	<LoopedTypewriter />
 </p>
 <RandomLink />
