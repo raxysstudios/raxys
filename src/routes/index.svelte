@@ -64,7 +64,13 @@
 	<ProjectCard iconUrl="https://raw.githubusercontent.com/raxysstudios/andax/main/assets/icon.png">
 		<slot slot="title">Andax</slot>
 		<slot slot="description">Interactive non-linear narratives.</slot>
-		<SocialBar slot="footer" github="raxysstudios/andax" webAppUrl="https://andax.raxys.app/" />
+		<SocialBar
+			slot="footer"
+			github="raxysstudios/andax"
+			webAppUrl="https://andax.raxys.app/"
+			googlePlayUrl="https://play.google.com/store/apps/details?id=com.alkaitagi.andax"
+			appStoreUrl="https://apps.apple.com/tt/app/andax-interactive-stories/id1601086187"
+		/>
 	</ProjectCard>
 	<ProjectCard>
 		<slot slot="title">Mecel</slot>
