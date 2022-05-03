@@ -48,6 +48,9 @@
 	.iconify {
 		font-size: 24px;
 	}
+	a {
+		@apply p-1;
+	}
 	a:hover {
 		@apply scale-125;
 	}
