@@ -13,7 +13,7 @@
 	const hover = langs.map((_) => false);
 </script>
 
-<div class="flex flex-wrap px-4 py-6 justify-center text-sm text-center capitalize font-bold">
+<div class="flex flex-wrap px-2 py-4 justify-center text-sm text-center capitalize font-bold">
 	{#each langs as lang, i}
 		<a
 			href={getTgUrl(lang.channel)}
