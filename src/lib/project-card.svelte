@@ -6,7 +6,9 @@
 	export let ios = '';
 </script>
 
-<div class="card flex flex-col p-4 gap-2 w-full sm:w-72 relative overflow-hidden group">
+<div
+	class="card flex flex-col p-4 gap-2 w-full sm:w-72 relative overflow-hidden group hover:-translate-y-1"
+>
 	<img
 		class="w-32 h-32 bottom-0 right-0 origin-bottom-right absolute thm-img opacity-10 group-hover:scale-110"
 		src={icon}
