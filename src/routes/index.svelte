@@ -1,6 +1,5 @@
 <script lang="ts">
 	import LoopedTypewriter from '$lib/looped-typewriter.svelte';
-	import LangsRibbon from '$lib/langs-ribbon.svelte';
 	import RandomLink from '$lib/random-link.svelte';
 	import LinkIcon from '$lib/link-icon.svelte';
 	import ProjectsGrid from '$lib/projects-grid.svelte';
@@ -35,7 +34,6 @@
 </div>
 
 <ProjectsGrid />
-<LangsRibbon />
 <p class="mt-8 mb-4 min-h-[2rem] text-center text-xs whitespace-pre-wrap italic">
 	<LoopedTypewriter />
 </p>
