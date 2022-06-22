@@ -4,7 +4,7 @@
 </script>
 
 <div data-tilt id="parent" class="relative group cursor-pointer select-none">
-	<img class="drop-shadow-lg thm-img" src={raxys} alt="raxys" />
+	<img class="drop-shadow-lg thm-img group-active:opacity-40" src={raxys} alt="raxys" />
 	<div
 		id="first"
 		class="absolute top-0 w-64 h-64 opacity-0 scale-50 thm-img group-hover:opacity-40"
