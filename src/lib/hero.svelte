@@ -3,65 +3,34 @@
 	import raxys from '$lib/assets/icons/raxys.png';
 </script>
 
-<div
-	data-tilt
-	data-tilt-scale="1.25"
-	id="chains"
-	class="relative group cursor-pointer select-none"
-	style="transform: perspective(1000px); transform-style: preserve-3d;"
->
-	<img
-		class="drop-shadow-lg thm-img group-hover:shadow-none opacity-100 group-hover:opacity-40 group-hover:scale-50"
-		src={raxys}
-		alt="raxys"
-	/>
-	<img
-		class="thm-img absolute left-[18%] top-[18%] opacity-0 group-hover:opacity-40 group-hover:scale-50"
-		src={raxys}
-		alt="raxys"
-	/>
-	<img
-		class="thm-img absolute -left-[18%] -top-[18%] opacity-0 group-hover:opacity-40 group-hover:scale-50"
-		src={raxys}
-		alt="raxys"
-	/>
-	<img
-		class="thm-img absolute left-[18%] -top-[18%] opacity-0 group-hover:opacity-40 group-hover:scale-50"
-		src={raxys}
-		alt="raxys"
-	/>
-	<img
-		class="thm-img absolute -left-[18%] top-[18%] opacity-0 group-hover:opacity-40 group-hover:scale-50"
-		src={raxys}
-		alt="raxys"
-	/>
-	<img
-		class="thm-img absolute -left-[36%] top-0 opacity-0 group-hover:opacity-40 group-hover:scale-50"
-		src={raxys}
-		alt="raxys"
-	/>
-	<img
-		class="thm-img absolute left-[36%] top-0 opacity-0 group-hover:opacity-40 group-hover:scale-50"
-		src={raxys}
-		alt="raxys"
-	/>
-	<div id="main" class="absolute top-0">
-		<img
-			class="drop-shadow-lg thm-img opacity-0 group-hover:opacity-100 group-hover:scale-50"
-			src={raxys}
-			alt="raxys"
-		/>
+<div data-tilt id="chains" class="relative group cursor-pointer select-none">
+	<img class="drop-shadow-lg thm-img" src={raxys} alt="raxys" />
+	<div class="thm-img absolute top-0 w-64 h-64 opacity-0 group-hover:opacity-40">
+		<img class="left-0 top-0 group-hover:scale-50" src={raxys} alt="raxys" />
+		<img class="left-[18%] top-[18%] group-hover:scale-50" src={raxys} alt="raxys" />
+		<img class="-left-[18%] -top-[18%] group-hover:scale-50" src={raxys} alt="raxys" />
+		<img class="left-[18%] -top-[18%] group-hover:scale-50" src={raxys} alt="raxys" />
+		<img class="-left-[18%] top-[18%] group-hover:scale-50" src={raxys} alt="raxys" />
+		<img class="-left-[36%] top-0 group-hover:scale-50" src={raxys} alt="raxys" />
+		<img class="left-[36%] top-0 group-hover:scale-50" src={raxys} alt="raxys" />
 	</div>
 </div>
 
 <style>
-	img {
-		@apply w-64;
+	* {
+		@apply w-64 h-64;
 	}
-	#main {
-		transform: translateZ(64px);
+	#chains {
+		transform: perspective(1000px);
+		transform-style: preserve-3d;
 	}
-	#chains:active > #main {
-		transform: translateZ(0px) !important;
+	#chains > div > img {
+		@apply absolute;
+	}
+	#chains:hover > img {
+		transform: translateZ(64px) scale(0.5);
+	}
+	#chains:active > img {
+		transform: translateZ(0px) scale(0.5);
 	}
 </style>
