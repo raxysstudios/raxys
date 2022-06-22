@@ -1,20 +1,19 @@
 <script lang="ts">
 	import LoopedTypewriter from '$lib/looped-typewriter.svelte';
 	import LangsRibbon from '$lib/langs-ribbon.svelte';
-
-	import raxys from '$lib/assets/icons/raxys.png';
 	import RandomLink from '$lib/random-link.svelte';
 	import LinkIcon from '$lib/link-icon.svelte';
 	import ProjectsGrid from '$lib/projects-grid.svelte';
+	import Hero from '$lib/hero.svelte';
 </script>
 
-<div class="flex flex-col items-center px-8 pb-8 gap-2 relative">
+<div class="flex flex-col items-center px-8 pb-8 gap-2 relative overflow-hidden">
 	<div
 		id="map"
 		class="absolute w-full h-full -z-10 opacity-40 bg-cover bg-center invert-0 dark:invert"
 	/>
 	<div class="flex flex-col items-stretch text-center">
-		<img class="w-64 drop-shadow-lg thm-img" src={raxys} alt="raxys" />
+		<Hero />
 		<h1 class="text-4xl font-bold">Raxys Studios</h1>
 		<p class="font-medium">
 			Made with honor in
@@ -50,12 +49,12 @@
 	}
 	#map {
 		background-image: linear-gradient(var(--lbg), transparent 25%, transparent 75%, var(--lbg)),
-			var(--map);
+			linear-gradient(90deg, var(--lbg), transparent 25%, transparent 75%, var(--lbg)), var(--map);
 	}
 	@media (prefers-color-scheme: dark) {
 		#map {
 			background-image: linear-gradient(var(--dbg), transparent 25%, transparent 75%, var(--dbg)),
-				var(--map);
+				linear-gradient(90deg, var(--dbg), transparent 25%, transparent 75%, var(--dbg)), var(--map);
 		}
 	}
 </style>

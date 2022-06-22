@@ -34,6 +34,7 @@
   "type": "module",
   "dependencies": {
     "@types/lodash": "^4.14.181",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "vanilla-tilt": "^1.7.2"
   }
 }
