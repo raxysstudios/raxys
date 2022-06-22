@@ -21,7 +21,7 @@
 			<LinkIcon url={web} icon="ic:round-open-in-browser" />
 		{/if}
 		{#if android}
-			<LinkIcon url={android} icon="mdi:google-play" />
+			<LinkIcon url={android} icon="tabler:brand-google-play" />
 		{/if}
 		{#if ios}
 			<LinkIcon url={ios} icon="ri:app-store-line" />
