@@ -5,14 +5,13 @@
 
 <div data-tilt id="chains" class="relative group cursor-pointer select-none">
 	<img class="drop-shadow-lg thm-img" src={raxys} alt="raxys" />
-	<div class="thm-img absolute top-0 w-64 h-64 opacity-0 group-hover:opacity-40">
-		<img class="left-0 top-0 group-hover:scale-50" src={raxys} alt="raxys" />
-		<img class="left-[18%] top-[18%] group-hover:scale-50" src={raxys} alt="raxys" />
-		<img class="-left-[18%] -top-[18%] group-hover:scale-50" src={raxys} alt="raxys" />
-		<img class="left-[18%] -top-[18%] group-hover:scale-50" src={raxys} alt="raxys" />
-		<img class="-left-[18%] top-[18%] group-hover:scale-50" src={raxys} alt="raxys" />
-		<img class="-left-[36%] top-0 group-hover:scale-50" src={raxys} alt="raxys" />
-		<img class="left-[36%] top-0 group-hover:scale-50" src={raxys} alt="raxys" />
+	<div class="thm-img absolute top-0 w-64 h-64 opacity-0 scale-50 group-hover:opacity-40">
+		<img class="left-[35%] top-[35%]" src={raxys} alt="raxys" />
+		<img class="-left-[35%] -top-[35%]" src={raxys} alt="raxys" />
+		<img class="left-[35%] -top-[35%]" src={raxys} alt="raxys" />
+		<img class="-left-[35%] top-[35%]" src={raxys} alt="raxys" />
+		<img class="-left-[70%] top-0" src={raxys} alt="raxys" />
+		<img class="left-[70%] top-0" src={raxys} alt="raxys" />
 	</div>
 </div>
 
@@ -26,6 +25,15 @@
 	}
 	#chains > div > img {
 		@apply absolute;
+	}
+	#chains > div > img:nth-child(even) {
+		transform: translateX(32px);
+	}
+	#chains > div > img:nth-child(odd) {
+		transform: translateX(-32px);
+	}
+	#chains:hover > div > img {
+		transform: translate(0);
 	}
 	#chains:hover > img {
 		transform: translateZ(64px) scale(0.5);
