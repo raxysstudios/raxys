@@ -14,15 +14,15 @@
 	/>
 	<h3 class="text-2xl font-bold"><slot name="title" /></h3>
 	<p class="flex grow"><slot name="description" /></p>
-	<div class="flex gap-2">
+	<div class="flex gap-2 opacity-40 group-hover:opacity-100">
 		{#if web}
-			<LinkIcon url={web} icon="mdi:open-in-app" />
+			<LinkIcon url={web} icon="ic:round-open-in-browser" />
 		{/if}
 		{#if android}
 			<LinkIcon url={android} icon="mdi:google-play" />
 		{/if}
 		{#if ios}
-			<LinkIcon url={ios} icon="ion:ios-appstore" />
+			<LinkIcon url={ios} icon="ri:app-store-line" />
 		{/if}
 	</div>
 </div>
