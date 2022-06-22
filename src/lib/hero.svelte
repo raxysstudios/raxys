@@ -3,15 +3,27 @@
 	import raxys from '$lib/assets/icons/raxys.png';
 </script>
 
-<div data-tilt id="chains" class="relative group cursor-pointer select-none">
+<div data-tilt id="parent" class="relative group cursor-pointer select-none">
 	<img class="drop-shadow-lg thm-img" src={raxys} alt="raxys" />
-	<div class="thm-img absolute top-0 w-64 h-64 opacity-0 scale-50 group-hover:opacity-40">
-		<img class="left-[35%] top-[35%]" src={raxys} alt="raxys" />
-		<img class="-left-[35%] -top-[35%]" src={raxys} alt="raxys" />
-		<img class="left-[35%] -top-[35%]" src={raxys} alt="raxys" />
-		<img class="-left-[35%] top-[35%]" src={raxys} alt="raxys" />
-		<img class="-left-[70%] top-0" src={raxys} alt="raxys" />
-		<img class="left-[70%] top-0" src={raxys} alt="raxys" />
+	<div
+		id="first"
+		class="absolute top-0 w-64 h-64 opacity-0 scale-50 thm-img group-hover:opacity-40"
+	>
+		<img class="left-[33.5%] top-[33.5%]" src={raxys} alt="raxys" />
+		<img class="-left-[33.5%] -top-[33.5%]" src={raxys} alt="raxys" />
+		<img class="left-[33.5%] -top-[33.5%]" src={raxys} alt="raxys" />
+		<img class="-left-[33.5%] top-[33.5%]" src={raxys} alt="raxys" />
+		<img class="-left-[67%] top-0" src={raxys} alt="raxys" />
+		<img class="left-[67%] top-0" src={raxys} alt="raxys" />
+	</div>
+	<div
+		id="second"
+		class="absolute top-0 w-64 h-64 opacity-0 scale-50 thm-img group-active:opacity-40"
+	>
+		<img class="left-[99.5%] top-[33.5%]" src={raxys} alt="raxys" />
+		<img class="-left-[99.5%] -top-[33.5%]" src={raxys} alt="raxys" />
+		<img class="left-[99.5%] -top-[33.5%]" src={raxys} alt="raxys" />
+		<img class="-left-[99.5%] top-[33.5%]" src={raxys} alt="raxys" />
 	</div>
 </div>
 
@@ -19,26 +31,29 @@
 	* {
 		@apply w-64 h-64;
 	}
-	#chains {
+	#parent {
 		transform: perspective(1000px);
 		transform-style: preserve-3d;
 	}
-	#chains > div > img {
+	img {
 		@apply absolute;
 	}
-	#chains > div > img:nth-child(even) {
+	#parent > div > img:nth-child(even) {
 		transform: translateX(32px);
 	}
-	#chains > div > img:nth-child(odd) {
+	#parent > div > img:nth-child(odd) {
 		transform: translateX(-32px);
 	}
-	#chains:hover > div > img {
+	#parent:hover > #first > img {
 		transform: translate(0);
 	}
-	#chains:hover > img {
+	#parent:active > #second > img {
+		transform: translate(0);
+	}
+	#parent:hover > img {
 		transform: translateZ(64px) scale(0.5);
 	}
-	#chains:active > img {
+	#parent:active > img {
 		transform: translateZ(0px) scale(0.5);
 	}
 </style>
