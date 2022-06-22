@@ -1,30 +1,25 @@
 <script lang="ts">
 	import { default as _langs } from '$lib/assets/languages.json';
 	import _ from 'lodash';
-	import { getTgUrl } from './utils/getTgUrl';
 
-	type Language = {
-		name: string;
-		endonym: string;
-		channel?: string;
-	};
-
-	const langs = _.shuffle(_langs as Language[]);
+	const langs = _.shuffle(
+		_langs as {
+			name: string;
+			endonym: string;
+		}[]
+	);
 	const hover = langs.map((_) => false);
 </script>
 
-<div class="flex flex-wrap px-2 py-4 justify-center text-sm text-center capitalize font-bold">
+<div class="flex flex-wrap px-2 py-4 justify-center text-sm text-center capitalize">
 	{#each langs as lang, i}
-		<a
-			href={getTgUrl(lang.channel)}
-			target="_blank"
+		<p
 			on:focus={() => (hover[i] = true)}
 			on:mouseover={() => (hover[i] = true)}
 			on:mouseleave={() => (hover[i] = false)}
-			class="px-4 py-2 relative whitespace-nowrap"
-			class:cursor-default={!lang.channel}
+			class="px-4 py-2 relative whitespace-nowrap cursor-default"
 		>
-			<span class:blur-sm={hover[i]} class="italic text-slate-400">
+			<span class:blur-md={hover[i]} class="italic text-gray-400">
 				{lang.endonym}
 			</span>
 			<span
@@ -33,6 +28,6 @@
 			>
 				{lang.name}
 			</span>
-		</a>
+		</p>
 	{/each}
 </div>

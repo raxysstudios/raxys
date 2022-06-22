@@ -5,7 +5,9 @@
 	import { getTgUrl } from './utils/getTgUrl';
 
 	let url = '';
-	const nextUrl = () => (url = getTgUrl(_.sample(friends)));
+	function nextUrl() {
+		url = getTgUrl(_.sample(friends));
+	}
 	nextUrl();
 </script>
 

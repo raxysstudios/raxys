@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-	@apply bg-slate-100;
+	@apply bg-zinc-100 dark:bg-zinc-900;
 }
 
 .iconify {
@@ -18,8 +18,16 @@ img {
 	-o-user-drag: none;
 }
 
+.card {
+	@apply bg-white dark:bg-zinc-800 shadow-sm hover:shadow-md rounded-sm;
+}
+
+.thm-img {
+	@apply invert dark:invert-0 select-none pointer-events-none;
+}
+
 * {
-	@apply duration-150 font-['Fira_Sans'];
+	@apply duration-150 font-['Fira_Sans'] dark:text-white;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	-webkit-tap-highlight-color: transparent;
 }

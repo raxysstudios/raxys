@@ -9,13 +9,11 @@
     },
     {
         "name": "kaitag",
-        "endonym": "хайдакьан кув",
-        "channel": "kaitaglang"
+        "endonym": "хайдакьан кув"
     },
     {
         "name": "iron ossetian",
-        "endonym": "ирон ӕвзаг ",
-        "channel": "ironau_online"
+        "endonym": "ирон ӕвзаг "
     },
     {
         "name": "digor ossetian",
@@ -23,13 +21,11 @@
     },
     {
         "name": "аvar",
-        "endonym": "магӏарул мацӏ",
-        "channel": "avar_language"
+        "endonym": "магӏарул мацӏ"
     },
     {
         "name": "lezgi",
-        "endonym": "лезги чӏал",
-        "channel": "lezgian_language"
+        "endonym": "лезги чӏал"
     },
     {
         "name": "karachay-balkar",
@@ -45,18 +41,15 @@
     },
     {
         "name": "kumyk",
-        "endonym": "къумукъ тил",
-        "channel": "qumuqsozluk"
+        "endonym": "къумукъ тил"
     },
     {
         "name": "aghul",
-        "endonym": "агъул чӏал",
-        "channel": "ruxavus"
+        "endonym": "агъул чӏал"
     },
     {
         "name": "tsakhur",
-        "endonym": "цӏаӏхна миз",
-        "channel": "yiqblog"
+        "endonym": "цӏаӏхна миз"
     },
     {
         "name": "chechen",
