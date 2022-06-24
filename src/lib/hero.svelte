@@ -9,22 +9,10 @@
 		id="back"
 		class="absolute top-0 w-64 h-64 opacity-0 scale-50 thm-img group-hover:opacity-40 group-active:opacity-100"
 	>
-		<img class="left-[33.5%] top-[33.5%] translate-x-1/4 translate-y-1/4" src={raxys} alt="raxys" />
-		<img
-			class="-left-[33.5%] -top-[33.5%] -translate-x-1/4 -translate-y-1/4"
-			src={raxys}
-			alt="raxys"
-		/>
-		<img
-			class="left-[33.5%] -top-[33.5%] translate-x-1/4 -translate-y-1/4"
-			src={raxys}
-			alt="raxys"
-		/>
-		<img
-			class="-left-[33.5%] top-[33.5%] -translate-x-1/4 translate-y-1/4"
-			src={raxys}
-			alt="raxys"
-		/>
+		<img class="left-1/3 top-1/3 translate-x-1/4 translate-y-1/4" src={raxys} alt="raxys" />
+		<img class="-left-1/3 -top-1/3 -translate-x-1/4 -translate-y-1/4" src={raxys} alt="raxys" />
+		<img class="left-1/3 -top-1/3 translate-x-1/4 -translate-y-1/4" src={raxys} alt="raxys" />
+		<img class="-left-1/3 top-1/3 -translate-x-1/4 translate-y-1/4" src={raxys} alt="raxys" />
 	</div>
 </div>
 
