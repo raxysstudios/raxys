@@ -9,10 +9,22 @@
 		id="back"
 		class="absolute top-0 w-64 h-64 opacity-0 scale-50 thm-img group-hover:opacity-40 group-active:opacity-100"
 	>
-		<img class="left-[33.5%] top-[33.5%]" src={raxys} alt="raxys" />
-		<img class="-left-[33.5%] -top-[33.5%]" src={raxys} alt="raxys" />
-		<img class="left-[33.5%] -top-[33.5%]" src={raxys} alt="raxys" />
-		<img class="-left-[33.5%] top-[33.5%]" src={raxys} alt="raxys" />
+		<img class="left-[33.5%] top-[33.5%] translate-x-1/4 translate-y-1/4" src={raxys} alt="raxys" />
+		<img
+			class="-left-[33.5%] -top-[33.5%] -translate-x-1/4 -translate-y-1/4"
+			src={raxys}
+			alt="raxys"
+		/>
+		<img
+			class="left-[33.5%] -top-[33.5%] translate-x-1/4 -translate-y-1/4"
+			src={raxys}
+			alt="raxys"
+		/>
+		<img
+			class="-left-[33.5%] top-[33.5%] -translate-x-1/4 translate-y-1/4"
+			src={raxys}
+			alt="raxys"
+		/>
 	</div>
 </div>
 
@@ -27,14 +39,8 @@
 	img {
 		@apply absolute;
 	}
-	#parent > div > img:nth-child(even) {
-		transform: translateX(32px);
-	}
-	#parent > div > img:nth-child(odd) {
-		transform: translateX(-32px);
-	}
 	#parent:hover > #back > img {
-		transform: translate(0);
+		@apply translate-x-0 translate-y-0;
 	}
 	#parent:hover > img {
 		transform: translateZ(64px) scale(0.5);
