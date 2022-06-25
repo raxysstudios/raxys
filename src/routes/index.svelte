@@ -24,11 +24,11 @@
 		<LinkIcon url="https://github.com/raxysstudios" icon="mdi:github" />
 		<LinkIcon url="https://twitter.com/raxysstudios" icon="mdi:twitter" />
 	</div>
-	<p class="max-w-xl indent-6 text-justify italic">
-		"The Circassians nobly represent in the Caucasus that chivalrous and warlike spirit that shed so
+	<p class="max-w-xl indent-6 text-justify text-sm italic">
+		“The Circassians nobly represent in the Caucasus that chivalrous and warlike spirit that shed so
 		much brilliance on the peoples of the Middle Ages. Courage, intelligence, beauty: nature gave
 		them a noble dignity, which has never been refuted and which they combined with the most
-		chivalrous feelings and with an ardent love of national freedom."
+		chivalrous feelings and with an ardent love of national freedom.”
 		<span class="whitespace-nowrap"> — Xavier Hommaire de Hell</span>
 	</p>
 </div>
