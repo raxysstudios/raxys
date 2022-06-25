@@ -14,7 +14,7 @@
 		src={icon}
 		alt="icon"
 	/>
-	<h3 class="text-2xl font-bold"><slot name="title" /></h3>
+	<h2><slot name="title" /></h2>
 	<p class="flex grow"><slot name="description" /></p>
 	<div class="flex gap-2 opacity-40 group-hover:opacity-100">
 		{#if web}

@@ -11,13 +11,13 @@
 		id="map"
 		class="absolute w-full h-full -z-10 opacity-40 bg-cover bg-center invert-0 dark:invert"
 	/>
-	<div class="flex flex-col items-stretch text-center">
+	<div class="flex flex-col items-center text-center">
 		<Hero />
-		<h1 class="text-4xl font-bold">Raxys Studios</h1>
-		<p class="font-medium">
+		<h1>Raxys Studios</h1>
+		<h3>
 			Made with honor in
 			<span class="whitespace-nowrap">North Caucasus</span>
-		</p>
+		</h3>
 	</div>
 	<div class="flex gap-2">
 		<LinkIcon url="https://t.me/raxysstudios" icon="mdi:telegram" />
