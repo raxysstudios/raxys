@@ -1,7 +1,7 @@
 <script>
 	import ProjectCard from './project-card.svelte';
 
-	import raxys from '$lib/assets/icons/raxys.png';
+	import raxys from '$lib/assets/icons/raxys-loop.png';
 	import avzag from '$lib/assets/icons/avzag.png';
 	import avdan from '$lib/assets/icons/avdan.png';
 	import andax from '$lib/assets/icons/andax.png';
