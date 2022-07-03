@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-	@apply bg-zinc-100 dark:bg-zinc-900;
+	@apply bg-slate-100 dark:bg-gray-800;
 }
 
 .iconify {
@@ -21,7 +21,7 @@ img {
 }
 
 .card {
-	@apply bg-white dark:bg-zinc-800 shadow-sm hover:shadow-md rounded-sm;
+	@apply bg-white dark:bg-gray-700 shadow-sm hover:shadow-md rounded-sm;
 }
 
 .thm-img {

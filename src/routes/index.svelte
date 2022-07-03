@@ -4,13 +4,11 @@
 	import LinkIcon from '$lib/link-icon.svelte';
 	import ProjectsGrid from '$lib/projects-grid.svelte';
 	import Hero from '$lib/hero.svelte';
+	import MapImage from '$lib/map-image.svelte';
 </script>
 
 <div class="flex flex-col items-center px-8 pb-8 gap-2 relative overflow-hidden">
-	<div
-		id="map"
-		class="absolute w-full h-full -z-10 opacity-40 bg-cover bg-center invert-0 dark:invert"
-	/>
+	<MapImage />
 	<div class="flex flex-col items-center text-center">
 		<Hero />
 		<h1>Raxys Studios</h1>
@@ -38,21 +36,3 @@
 	<LoopedTypewriter />
 </p>
 <RandomLink />
-
-<style>
-	* {
-		--lbg: #f4f4f5;
-		--dbg: #e7e7e4;
-		--map: url('$lib/assets/map.png');
-	}
-	#map {
-		background-image: linear-gradient(var(--lbg), transparent 25%, transparent 75%, var(--lbg)),
-			linear-gradient(90deg, var(--lbg), transparent 25%, transparent 75%, var(--lbg)), var(--map);
-	}
-	@media (prefers-color-scheme: dark) {
-		#map {
-			background-image: linear-gradient(var(--dbg), transparent 25%, transparent 75%, var(--dbg)),
-				linear-gradient(90deg, var(--dbg), transparent 25%, transparent 75%, var(--dbg)), var(--map);
-		}
-	}
-</style>
