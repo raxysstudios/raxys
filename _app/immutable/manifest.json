@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-0c0939b8.js",
+    "file": "start-ad72b011.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -34,7 +34,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-38f220f0.js",
+    "file": "pages/index.svelte-4f114b6b.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -46,9 +46,8 @@
     ],
     "assets": [
       "assets/state-6dda65b9.png",
-      "assets/raxys-loop-7ccceecd.png",
-      "assets/avzag-9ddc2bd7.png",
-      "assets/raxys-4ec305eb.png",
+      "assets/raxys-loop-5d4414db.png",
+      "assets/raxys-9c81f8f5.png",
       "assets/map-a8728cac.png"
     ]
   },
