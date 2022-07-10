@@ -46,7 +46,7 @@
 
 <h3 class="text-center opacity-50">Utils & toys</h3>
 
-<div class="flex flex-col gap-2 p-8 items-center">
+<div class="flex flex-col gap-2 p-6 items-center">
 	<ToyCard link="https://mecel.raxys.app/">
 		<slot slot="title">Mecel</slot>
 		<slot slot="description">mountain implementation of the viral word-guessing game.</slot>
