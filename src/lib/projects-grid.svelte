@@ -1,13 +1,15 @@
 <script>
 	import ProjectCard from './project-card.svelte';
 
-	import raxys from '$lib/assets/icons/raxys-loop.png';
 	import avzag from '$lib/assets/icons/avzag.png';
 	import avdan from '$lib/assets/icons/avdan.png';
 	import andax from '$lib/assets/icons/andax.png';
+	import ToyCard from './toy-card.svelte';
 </script>
 
-<div class="flex flex-row justify-center flex-wrap gap-4 p-8">
+<h3 class="text-center opacity-50">Flagship projects</h3>
+
+<div class="flex flex-col items-stretch justify-center sm:flex-row gap-4 p-8">
 	<ProjectCard
 		icon={avzag}
 		web="https://avzag.raxys.app"
@@ -40,8 +42,17 @@
 		<slot slot="title">Andax</slot>
 		<slot slot="description">Interactive non-linear narratives.</slot>
 	</ProjectCard>
-	<ProjectCard icon={raxys} web="https://mecel.raxys.app/">
+</div>
+
+<h3 class="text-center opacity-50">Utils & toys</h3>
+
+<div class="flex flex-col gap-4 p-8 items-stretch justify-center">
+	<ToyCard link="https://mecel.raxys.app/">
 		<slot slot="title">Mecel</slot>
 		<slot slot="description">Mountain implementation of the viral word-guessing game.</slot>
-	</ProjectCard>
+	</ToyCard>
+	<ToyCard>
+		<slot slot="title"><i>[Soon]</i></slot>
+		<slot slot="description">Script converter for the languages of Caucasus.</slot>
+	</ToyCard>
 </div>

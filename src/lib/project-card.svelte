@@ -15,7 +15,7 @@
 		alt="icon"
 	/>
 	<h2><slot name="title" /></h2>
-	<p class="flex grow"><slot name="description" /></p>
+	<p class="grow"><slot name="description" /></p>
 	<div class="flex gap-2 opacity-40 group-hover:opacity-100">
 		{#if web}
 			<LinkIcon url={web} icon="ic:round-open-in-browser" />
