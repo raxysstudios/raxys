@@ -33,8 +33,7 @@
 
 <ProjectsGrid />
 
-<hr class="w-1/2 self-center border-slate-200 dark:border-gray-700" />
-<p class="mt-8 mb-4 min-h-[2rem] text-center text-xs whitespace-pre-wrap italic">
+<p class="mt-16 mb-4 min-h-[2rem] text-center text-xs whitespace-pre-wrap italic">
 	<LoopedTypewriter />
 </p>
 <RandomLink />

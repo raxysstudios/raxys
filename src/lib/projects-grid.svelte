@@ -7,7 +7,7 @@
 	import ToyCard from './toy-card.svelte';
 </script>
 
-<h3 class="text-center opacity-50">Flagship projects</h3>
+<h3 class="text-center opacity-50">Flagship Products</h3>
 
 <div class="flex flex-col items-stretch justify-center sm:flex-row gap-4 p-8">
 	<ProjectCard
@@ -44,15 +44,15 @@
 	</ProjectCard>
 </div>
 
-<h3 class="text-center opacity-50">Utils & toys</h3>
+<h3 class="text-center opacity-50">Utils & Toys</h3>
 
-<div class="flex flex-col gap-2 p-6 items-center">
+<div class="flex flex-col p-4 items-center">
 	<ToyCard link="https://mecel.raxys.app/">
 		<slot slot="title">Mecel</slot>
-		<slot slot="description">mountain implementation of the viral word-guessing game.</slot>
+		<slot slot="description">Mountain implementation of the viral word-guessing game.</slot>
 	</ToyCard>
 	<ToyCard>
 		<slot slot="title">[Soon]</slot>
-		<slot slot="description">script converter for the languages of Caucasus.</slot>
+		<slot slot="description">Script converter for the languages of Caucasus.</slot>
 	</ToyCard>
 </div>
