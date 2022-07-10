@@ -3,7 +3,7 @@
 	export let link = '';
 </script>
 
-<a href={link} class="flex flex-col text-center p-4 relative group sm:max-w-sm">
+<a href={link} class="flex flex-col text-center p-4 relative group w-full sm:w-96">
 	<img
 		src={loop}
 		alt="loop"
