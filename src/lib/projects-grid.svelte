@@ -1,17 +1,17 @@
 <script>
 	import ProjectCard from './project-card.svelte';
-
-	import avzag from '$lib/assets/icons/avzag.png';
-	import avdan from '$lib/assets/icons/avdan.png';
-	import andax from '$lib/assets/icons/andax.png';
 	import ToyCard from './toy-card.svelte';
+
+	import bazur from '$lib/assets/icons/bazur.png';
+	import avdan from '$lib/assets/icons/avdan.png';
+	import tulim from '$lib/assets/icons/tulim.png';
 </script>
 
 <h3 class="text-center opacity-50">Flagship Products</h3>
 
 <div class="flex flex-col items-stretch justify-center sm:flex-row gap-4 p-8">
 	<ProjectCard
-		icon={avzag}
+		icon={bazur}
 		web="https://bazur.raxys.app"
 		android="https://play.google.com/store/apps/details?id=com.alkaitagi.avzag"
 		ios="https://apps.apple.com/app/bazur-languages-of-caucasus/id1603226004"
@@ -34,12 +34,12 @@
 		</slot>
 	</ProjectCard>
 	<ProjectCard
-		icon={andax}
-		web="https://andax.raxys.app/"
+		icon={tulim}
+		web="https://tulim.raxys.app/"
 		android="https://play.google.com/store/apps/details?id=com.alkaitagi.andax"
-		ios="https://apps.apple.com/tt/app/andax-interactive-stories/id1601086187"
+		ios="https://apps.apple.com/tt/app/tulim-interactive-stories/id1601086187"
 	>
-		<slot slot="title">Andax</slot>
+		<slot slot="title">Tulim</slot>
 		<slot slot="description">Interactive non-linear narratives.</slot>
 	</ProjectCard>
 </div>
