@@ -18,7 +18,7 @@
 	>
 		<slot slot="title">Avzag</slot>
 		<slot slot="description">
-			Expandable parallel language guide to the languages of the Caucasus in English.
+			Expandable parallel dictionary for the languages of the Caucasus in English.
 		</slot>
 	</ProjectCard>
 	<ProjectCard
@@ -51,8 +51,8 @@
 		<slot slot="title">Mecel</slot>
 		<slot slot="description">Mountain implementation of the viral word-guessing game.</slot>
 	</ToyCard>
-	<ToyCard>
-		<slot slot="title">[Soon]</slot>
+	<ToyCard link="https://yaziv.raxys.app/">
+		<slot slot="title">Yaziv</slot>
 		<slot slot="description">Script converter for the languages of Caucasus.</slot>
 	</ToyCard>
 </div>
