@@ -1,18 +1,26 @@
 <script lang="ts">
 	import VanillaTilt from 'vanilla-tilt';
-	import raxysOrn from '$lib/assets/icons/raxys-orn.png';
+	import raxysOrn from '$lib/assets/icons/raxys.png';
 	import raxys from '$lib/assets/icons/raxys.png';
 </script>
 
 <div data-tilt id="parent" class="relative group cursor-pointer select-none">
-	<img class="drop-shadow-lg thm-img group-hover:opacity-0" src={raxys} alt="raxys" />
-	<img class="thm-img opacity-0 group-hover:opacity-100" src={raxysOrn} alt="raxys" />
+	<img class="thm-img rotate-45" src={raxys} alt="raxys" />
+	<img class="thm-img rotate-45" src={raxys} alt="raxys" />
 	<div
 		id="back"
 		class="absolute top-0 opacity-0 scale-50 thm-img group-hover:opacity-40 group-active:opacity-100"
 	>
-		<img class="left-1/3 top-1/3 translate-x-1/4 translate-y-1/4" src={raxysOrn} alt="raxys" />
-		<img class="-left-1/3 -top-1/3 -translate-x-1/4 -translate-y-1/4" src={raxysOrn} alt="raxys" />
+		<img
+			class="left-1/3 top-1/3 rotate-90 translate-x-1/4 translate-y-1/4"
+			src={raxysOrn}
+			alt="raxys"
+		/>
+		<img
+			class="-left-1/3 -top-1/3 rotate-90 -translate-x-1/4 -translate-y-1/4"
+			src={raxysOrn}
+			alt="raxys"
+		/>
 		<img class="left-1/3 -top-1/3 translate-x-1/4 -translate-y-1/4" src={raxysOrn} alt="raxys" />
 		<img class="-left-1/3 top-1/3 -translate-x-1/4 translate-y-1/4" src={raxysOrn} alt="raxys" />
 	</div>
@@ -33,9 +41,15 @@
 		@apply translate-x-0 translate-y-0;
 	}
 	#parent:hover > img {
-		transform: translateZ(64px) scale(0.5);
+		transform: translateZ(64px) rotate(0) scale(0.5);
+	}
+	#parent:hover > img:last-of-type {
+		transform: translateZ(64px) rotate(90deg) scale(0.5);
 	}
 	#parent:active > img {
-		transform: translateZ(0px) scale(0.5);
+		transform: translateZ(0) scale(0.5);
+	}
+	#parent:active > img:last-of-type {
+		transform: translateZ(0) rotate(90deg) scale(0.5);
 	}
 </style>
