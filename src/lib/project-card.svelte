@@ -1,6 +1,6 @@
 <script lang="ts">
 	import LinkIcon from './link-icon.svelte';
-	export let icon: string | undefined;
+	export let icon = '';
 	export let web = '';
 	export let android = '';
 	export let ios = '';

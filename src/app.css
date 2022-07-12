@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -29,22 +27,22 @@ img {
 }
 
 * {
-	@apply duration-150 font-['Fira_Sans'] dark:text-white;
+	@apply duration-150 font-['Finlandica'] dark:text-white;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	-webkit-tap-highlight-color: transparent;
 }
 
 h1,
 h1 * {
-	@apply text-4xl font-['Outfit'];
+	@apply text-4xl font-['Finlandica'] uppercase font-semibold;
 }
 
 h2,
 h2 * {
-	@apply text-2xl font-['Outfit'];
+	@apply text-2xl font-['Finlandica'] capitalize font-semibold;
 }
 
 h3,
 h3 * {
-	@apply text-lg font-['Outfit'];
+	@apply text-lg font-['Finlandica'] font-semibold;
 }
