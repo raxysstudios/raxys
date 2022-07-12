@@ -4,7 +4,7 @@
 
 	import bazur from '$lib/assets/icons/bazur.png';
 	import avdan from '$lib/assets/icons/avdan.png';
-	import tulim from '$lib/assets/icons/tulim.png';
+	// import tulim from '$lib/assets/icons/tulim.png';
 </script>
 
 <h3 class="text-center opacity-50">Flagship Products</h3>
@@ -34,7 +34,6 @@
 		</slot>
 	</ProjectCard>
 	<ProjectCard
-		icon={tulim}
 		web="https://tulim.raxys.app/"
 		android="https://play.google.com/store/apps/details?id=com.alkaitagi.andax"
 		ios="https://apps.apple.com/tt/app/tulim-interactive-stories/id1601086187"

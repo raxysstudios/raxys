@@ -1,6 +1,6 @@
 <script lang="ts">
 	import LinkIcon from './link-icon.svelte';
-	export let icon = '';
+	export let icon: string | undefined;
 	export let web = '';
 	export let android = '';
 	export let ios = '';
@@ -9,11 +9,13 @@
 <div
 	class="card flex flex-col p-4 gap-2 w-full sm:w-72 relative overflow-hidden group hover:-translate-y-0.5"
 >
-	<img
-		class="w-32 h-32 bottom-0 right-0 origin-bottom-right absolute thm-img opacity-10 group-hover:scale-105"
-		src={icon}
-		alt="icon"
-	/>
+	{#if icon}
+		<img
+			class="w-32 h-32 bottom-0 right-0 origin-bottom-right absolute thm-img opacity-10 group-hover:scale-105"
+			src={icon}
+			alt="icon"
+		/>
+	{/if}
 	<h2><slot name="title" /></h2>
 	<p class="grow"><slot name="description" /></p>
 	<div class="flex gap-2 opacity-40 group-hover:opacity-100">
