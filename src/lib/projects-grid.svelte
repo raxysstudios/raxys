@@ -33,13 +33,18 @@
 			quality voiceover.
 		</slot>
 	</ProjectCard>
-	<ProjectCard
+	<!-- <ProjectCard
 		web="https://tulim.raxys.app/"
 		android="https://play.google.com/store/apps/details?id=com.alkaitagi.andax"
 		ios="https://apps.apple.com/tt/app/tulim-interactive-stories/id1601086187"
 	>
 		<slot slot="title">Tulim</slot>
 		<slot slot="description">Interactive non-linear narratives.</slot>
+	</ProjectCard> -->
+	<ProjectCard>
+		<slot slot="title">Tulim</slot>
+		<slot slot="description">Interactive non-linear narratives.</slot>
+		<b>2023</b>
 	</ProjectCard>
 </div>
 
