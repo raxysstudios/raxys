@@ -1,6 +1,5 @@
 <script lang="ts">
 	import VanillaTilt from 'vanilla-tilt';
-	import raxysOrn from '$lib/assets/icons/raxys.png';
 	import raxys from '$lib/assets/icons/raxys.png';
 </script>
 
@@ -12,17 +11,25 @@
 		class="absolute top-0 opacity-0 scale-50 thm-img group-hover:opacity-40 group-active:opacity-100"
 	>
 		<img
-			class="left-1/3 top-1/3 rotate-90 translate-x-1/4 translate-y-1/4"
+			class="left-1/3 group-active:rotate-90 top-1/3 translate-x-1/4 translate-y-1/4"
 			src={raxysOrn}
 			alt="raxys"
 		/>
 		<img
-			class="-left-1/3 -top-1/3 rotate-90 -translate-x-1/4 -translate-y-1/4"
+			class="-left-1/3 group-active:rotate-90 -top-1/3 -translate-x-1/4 -translate-y-1/4"
 			src={raxysOrn}
 			alt="raxys"
 		/>
-		<img class="left-1/3 -top-1/3 translate-x-1/4 -translate-y-1/4" src={raxysOrn} alt="raxys" />
-		<img class="-left-1/3 top-1/3 -translate-x-1/4 translate-y-1/4" src={raxysOrn} alt="raxys" />
+		<img
+			class="left-1/3 rotate-90 group-active:rotate-0 -top-1/3 translate-x-1/4 -translate-y-1/4"
+			src={raxysOrn}
+			alt="raxys"
+		/>
+		<img
+			class="-left-1/3 rotate-90 group-active:rotate-0 top-1/3 -translate-x-1/4 translate-y-1/4"
+			src={raxysOrn}
+			alt="raxys"
+		/>
 	</div>
 </div>
 
@@ -47,9 +54,9 @@
 		transform: translateZ(64px) rotate(90deg) scale(0.5);
 	}
 	#parent:active > img {
-		transform: translateZ(0) scale(0.5);
+		transform: translateZ(0) rotate(90deg) scale(0.5);
 	}
 	#parent:active > img:last-of-type {
-		transform: translateZ(0) rotate(90deg) scale(0.5);
+		transform: translateZ(0) rotate(0) scale(0.5);
 	}
 </style>
