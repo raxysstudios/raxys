@@ -12,22 +12,22 @@
 	>
 		<img
 			class="left-1/3 group-active:rotate-90 top-1/3 translate-x-1/4 translate-y-1/4"
-			src={raxysOrn}
+			src={raxys}
 			alt="raxys"
 		/>
 		<img
 			class="-left-1/3 group-active:rotate-90 -top-1/3 -translate-x-1/4 -translate-y-1/4"
-			src={raxysOrn}
+			src={raxys}
 			alt="raxys"
 		/>
 		<img
 			class="left-1/3 rotate-90 group-active:rotate-0 -top-1/3 translate-x-1/4 -translate-y-1/4"
-			src={raxysOrn}
+			src={raxys}
 			alt="raxys"
 		/>
 		<img
 			class="-left-1/3 rotate-90 group-active:rotate-0 top-1/3 -translate-x-1/4 translate-y-1/4"
-			src={raxysOrn}
+			src={raxys}
 			alt="raxys"
 		/>
 	</div>
