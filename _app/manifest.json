@@ -16,7 +16,7 @@
     "src": "src/lib/assets/map.png"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-51ecc540.js",
+    "file": "immutable/start-845a4c1b.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
