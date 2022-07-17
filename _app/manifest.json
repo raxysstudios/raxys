@@ -3,20 +3,20 @@
     "file": "immutable/assets/state-6dda65b9.png",
     "src": "src/lib/assets/state.png"
   },
-  "src/lib/assets/icons/raxys.png": {
-    "file": "immutable/assets/raxys-90c3107f.png",
-    "src": "src/lib/assets/icons/raxys.png"
-  },
   "src/lib/assets/icons/raxys-loop.png": {
     "file": "immutable/assets/raxys-loop-a372022e.png",
     "src": "src/lib/assets/icons/raxys-loop.png"
+  },
+  "src/lib/assets/icons/raxys.png": {
+    "file": "immutable/assets/raxys-90c3107f.png",
+    "src": "src/lib/assets/icons/raxys.png"
   },
   "src/lib/assets/map.png": {
     "file": "immutable/assets/map-a8728cac.png",
     "src": "src/lib/assets/map.png"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-8ffbb059.js",
+    "file": "immutable/start-51ecc540.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -50,7 +50,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "immutable/pages/index.svelte-d295b872.js",
+    "file": "immutable/pages/index.svelte-3d6e19ca.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -58,7 +58,7 @@
       "_index-4731925b.js"
     ],
     "css": [
-      "immutable/assets/index-3b623774.css"
+      "immutable/assets/index-4533ede8.css"
     ],
     "assets": [
       "immutable/assets/state-6dda65b9.png",
@@ -71,7 +71,7 @@
     "file": "immutable/chunks/index-4731925b.js"
   },
   "src/routes/index.css": {
-    "file": "immutable/assets/index-3b623774.css",
+    "file": "immutable/assets/index-4533ede8.css",
     "src": "src/routes/index.css"
   },
   "src/routes/__layout.css": {
