@@ -4,7 +4,7 @@
     "src": "src/lib/assets/state.png"
   },
   "src/lib/assets/icons/bazur.png": {
-    "file": "immutable/assets/bazur-f0c0df34.png",
+    "file": "immutable/assets/bazur-5dc00eed.png",
     "src": "src/lib/assets/icons/bazur.png"
   },
   "src/lib/assets/icons/avdan.png": {
@@ -24,11 +24,11 @@
     "src": "src/lib/assets/map.png"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-8d1e9872.js",
+    "file": "immutable/start-03617084.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-4731925b.js"
+      "_index-ca1f3dc6.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -37,33 +37,33 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "immutable/pages/__layout.svelte-61277186.js",
+    "file": "immutable/pages/__layout.svelte-0a2557a8.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-4731925b.js"
+      "_index-ca1f3dc6.js"
     ],
     "css": [
       "immutable/assets/__layout-49e69e76.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "immutable/error.svelte-3e32fab3.js",
+    "file": "immutable/error.svelte-796928a1.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-4731925b.js"
+      "_index-ca1f3dc6.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "immutable/pages/index.svelte-12093bbe.js",
+    "file": "immutable/pages/index.svelte-f692865c.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-4731925b.js"
+      "_index-ca1f3dc6.js"
     ],
     "css": [
       "immutable/assets/index-4533ede8.css"
@@ -71,14 +71,14 @@
     "assets": [
       "immutable/assets/state-6dda65b9.png",
       "immutable/assets/raxys-loop-a372022e.png",
-      "immutable/assets/bazur-f0c0df34.png",
+      "immutable/assets/bazur-5dc00eed.png",
       "immutable/assets/avdan-ce3af07e.png",
       "immutable/assets/raxys-90c3107f.png",
       "immutable/assets/map-a8728cac.png"
     ]
   },
-  "_index-4731925b.js": {
-    "file": "immutable/chunks/index-4731925b.js"
+  "_index-ca1f3dc6.js": {
+    "file": "immutable/chunks/index-ca1f3dc6.js"
   },
   "src/routes/index.css": {
     "file": "immutable/assets/index-4533ede8.css",
