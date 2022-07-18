@@ -42,9 +42,9 @@
 		<slot slot="description">Interactive non-linear narratives.</slot>
 	</ProjectCard> -->
 	<ProjectCard>
-		<slot slot="title">Tulim</slot>
+		<slot slot="title">[🛠️]</slot>
 		<slot slot="description">Interactive non-linear narratives.</slot>
-		<b>2023</b>
+		<b>Under construction<br />2023</b>
 	</ProjectCard>
 </div>
 
