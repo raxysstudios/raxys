@@ -11,17 +11,6 @@
 
 <div class="flex flex-col items-stretch justify-center sm:flex-row gap-4 p-8">
 	<ProjectCard
-		icon={bazur}
-		web="https://bazur.raxys.app"
-		android="https://play.google.com/store/apps/details?id=com.alkaitagi.avzag"
-		ios="https://apps.apple.com/app/bazur-languages-of-caucasus/id1603226004"
-	>
-		<slot slot="title">Bazur</slot>
-		<slot slot="description">
-			Expandable parallel dictionary for the languages of the Caucasus in English.
-		</slot>
-	</ProjectCard>
-	<ProjectCard
 		icon={avdan}
 		web="https://avdan.raxys.app"
 		android="https://play.google.com/store/apps/details?id=com.alkaitagi.avdan"
@@ -31,6 +20,17 @@
 		<slot slot="description">
 			Application to help learn the native languages through the library of authentic cards with
 			quality voiceover.
+		</slot>
+	</ProjectCard>
+	<ProjectCard
+		icon={bazur}
+		web="https://bazur.raxys.app"
+		android="https://play.google.com/store/apps/details?id=com.alkaitagi.avzag"
+		ios="https://apps.apple.com/app/bazur-languages-of-caucasus/id1603226004"
+	>
+		<slot slot="title">Bazur</slot>
+		<slot slot="description">
+			Expandable parallel dictionary for the languages of the Caucasus in English.
 		</slot>
 	</ProjectCard>
 	<!-- <ProjectCard
